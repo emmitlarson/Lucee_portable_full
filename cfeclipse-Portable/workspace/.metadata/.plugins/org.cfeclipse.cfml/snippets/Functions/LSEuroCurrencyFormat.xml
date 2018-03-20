@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>LSEuroCurrencyFormat</name>
+<help><![CDATA[LSEuroCurrencyFormat(currency_number [, type])]]></help>
+<starttext><![CDATA[LSEuroCurrencyFormat($${currency_number},$${type})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

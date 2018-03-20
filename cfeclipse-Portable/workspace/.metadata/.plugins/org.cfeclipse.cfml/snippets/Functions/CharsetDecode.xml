@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CharsetDecode" description="CharsetDecode(string, encoding)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[CharsetDecode($${string},$${encoding})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

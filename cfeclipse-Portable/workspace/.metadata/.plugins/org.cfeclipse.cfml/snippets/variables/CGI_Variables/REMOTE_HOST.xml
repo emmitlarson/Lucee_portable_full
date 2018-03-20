@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>REMOTE_HOST</name>
+	<help>The hostname making the request. If the server does not have this information, it sets REMOTE_ADDR and leaves this unset</help>
+	<starttext><![CDATA[REMOTE_HOST]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

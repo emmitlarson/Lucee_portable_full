@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ReturnValueCFFTP.ReturnValue</name>
+	<help></help>
+	<starttext><![CDATA[The value is determined by the results of the ACTION attribute used in CFFTP]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

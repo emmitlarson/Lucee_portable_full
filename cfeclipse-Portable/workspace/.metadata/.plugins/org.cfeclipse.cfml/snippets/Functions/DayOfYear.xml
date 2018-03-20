@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>DayOfYear</name>
+<help><![CDATA[DayOfYear(date)]]></help>
+<starttext><![CDATA[DayOfYear($${date})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

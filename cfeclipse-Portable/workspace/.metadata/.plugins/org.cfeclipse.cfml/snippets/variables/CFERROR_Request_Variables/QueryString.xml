@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>QueryString</name>
+	<help>URL query string of the client request</help>
+	<starttext><![CDATA[Error.QueryString]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

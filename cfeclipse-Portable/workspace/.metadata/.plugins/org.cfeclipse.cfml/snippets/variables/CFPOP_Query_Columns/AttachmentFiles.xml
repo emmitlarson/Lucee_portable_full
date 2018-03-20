@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>AttachmentFiles</name>
+	<help>Contains a tab-separated list of the actual temporary filenames written to the server when ACTION=GETALL</help>
+	<starttext><![CDATA[AttachmentFiles]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

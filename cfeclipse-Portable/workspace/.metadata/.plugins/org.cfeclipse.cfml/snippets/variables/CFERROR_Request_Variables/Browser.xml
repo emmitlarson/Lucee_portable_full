@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Browser</name>
+	<help>Browser that was running when the error occurred</help>
+	<starttext><![CDATA[Error.Browser]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

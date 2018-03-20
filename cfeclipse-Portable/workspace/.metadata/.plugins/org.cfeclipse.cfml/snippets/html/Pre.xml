@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Pre</name>
+<help></help>
+<starttext><![CDATA[<pre>]]></starttext>
+<endtext><![CDATA[</pre>]]></endtext>
+</snippet>

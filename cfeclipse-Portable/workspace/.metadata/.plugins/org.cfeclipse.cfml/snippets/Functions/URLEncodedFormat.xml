@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>URLEncodedFormat</name>
+<help><![CDATA[URLEncodedFormat(string [, charset ])]]></help>
+<starttext><![CDATA[URLEncodedFormat($${string},$${charset})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

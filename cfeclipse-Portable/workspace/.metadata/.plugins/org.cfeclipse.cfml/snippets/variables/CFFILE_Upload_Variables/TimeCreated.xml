@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>TimeCreated</name>
+	<help>Time the uploaded file was created</help>
+	<starttext><![CDATA[File.TimeCreated]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

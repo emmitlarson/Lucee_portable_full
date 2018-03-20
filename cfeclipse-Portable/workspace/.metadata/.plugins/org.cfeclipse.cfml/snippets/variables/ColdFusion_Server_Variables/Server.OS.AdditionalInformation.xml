@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Server.OS.AdditionalInformation</name>
+	<help>Information about the host operating system</help>
+	<starttext><![CDATA[Server.OS.AdditionalInformation]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListQualify</name>
+<help><![CDATA[ListQualify(list, qualifier [, delimiters ] [, elements ])]]></help>
+<starttext><![CDATA[ListQualify($${list},$${qualifier},$${delimiters},$${elements})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Key</name>
+	<help>Returns the value of the KEY attribute defined in the CFINDEX tag used to populate the collection</help>
+	<starttext><![CDATA[Key]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

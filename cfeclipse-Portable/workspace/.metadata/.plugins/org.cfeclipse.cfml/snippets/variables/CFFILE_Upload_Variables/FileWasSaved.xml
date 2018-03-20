@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>FileWasSaved</name>
+	<help>Specifies whether or not ColdFusion saved a file. Indicates Yes or No</help>
+	<starttext><![CDATA[File.FileWasSaved]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

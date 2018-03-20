@@ -1,0 +1,13 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="For  loop" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ For (i=1;i LTE 3; i=i+1)
+ 	{
+		
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[	}]]>
+</insertText>
+</snippet>
+

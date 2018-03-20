@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Evaluate</name>
+<help><![CDATA[Evaluate(string_expression1 [, string_expression2 [, à ] ])]]></help>
+<starttext><![CDATA[Evaluate($${string_expression1},$${string_expression2},$${à})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

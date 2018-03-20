@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>FileWasRenamed</name>
+	<help>Specifies whether or not the uploaded file was renamed to avoid a name conflict. Indicates Yes or No</help>
+	<starttext><![CDATA[File.FileWasRenamed]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

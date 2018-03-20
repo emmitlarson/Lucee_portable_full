@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: http://eclipse.jcraft.com/site.xml' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1520801272540'/>
+    <property name='site.checksum' value='499309770'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='26'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ftp' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.ftp_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.target.ftp' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.target.ftp_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.jsch.core' version='0.0.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/com.jcraft.eclipse.jsch.core_0.0.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.target' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.team.target_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.jcraft.eclipse.sftp.feature' version='0.0.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/features/com.jcraft.eclipse.sftp.feature_0.0.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.jcraft.eclipse.jsch' version='0.0.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/features/com.jcraft.eclipse.jsch_0.0.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.target.iofile' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.target.iofile_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.extras' version='3.1.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.team.extras_3.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.team.sftp' version='0.0.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/com.jcraft.eclipse.team.sftp_0.0.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.jsch.ui' version='0.0.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/com.jcraft.eclipse.jsch.ui_0.0.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.jcraft.jsch.agentproxy.eclipse.sshagent' version='1.0.0.201504081706'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/com.jcraft.jsch.agentproxy.eclipse.sshagent_1.0.0.201504081706.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.jcraft.eclipse.jcterm' version='0.0.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/features/com.jcraft.eclipse.jcterm_0.0.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.jcraft.jsch.agentproxy.eclipse.pageant' version='1.0.0.201504042251'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/com.jcraft.jsch.agentproxy.eclipse.pageant_1.0.0.201504042251.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.jcterm' version='0.0.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/com.jcraft.eclipse.jcterm_0.0.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.extras.source' version='3.1.100.v20060314'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.team.extras.source_3.1.100.v20060314.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.jcraft.jsch.agentproxy.eclipse.sshagent' version='1.0.0.201504081706'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/features/com.jcraft.jsch.agentproxy.eclipse.sshagent.feature_1.0.0.201504081706.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.ftp' version='3.1.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.team.ftp_3.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.extras' version='3.1.100.v20060314------0842282536'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/features/org.eclipse.team.extras_3.1.100.v20060314------0842282536.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.webdav' version='3.1.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.team.webdav_3.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.target.ide' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.target.ide_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.jcraft.jsch.agentproxy.eclipse.pageant' version='1.0.0.201504042251'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/features/com.jcraft.jsch.agentproxy.eclipse.pageant.feature_1.0.0.201504042251.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.sftp' version='0.0.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/com.jcraft.eclipse.sftp_0.0.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.webdav' version='3.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.webdav_3.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.target' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.target_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.target.webdav' version='1.0.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/org.eclipse.target.webdav_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.target.sftp' version='0.0.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://eclipse.jcraft.com/plugins/com.jcraft.eclipse.target.sftp_0.0.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

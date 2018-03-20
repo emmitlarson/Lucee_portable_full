@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListGetAt</name>
+<help><![CDATA[ListGetAt(list, position [, delimiters ])]]></help>
+<starttext><![CDATA[ListGetAt($${list},$${position},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

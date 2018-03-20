@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetException</name>
+<help><![CDATA[getException(object)]]></help>
+<starttext><![CDATA[GetException($${object})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

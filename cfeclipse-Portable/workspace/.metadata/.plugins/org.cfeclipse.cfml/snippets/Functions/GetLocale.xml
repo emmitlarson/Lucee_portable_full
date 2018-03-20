@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetLocale</name>
+<help><![CDATA[GetLocale()]]></help>
+<starttext><![CDATA[GetLocale()]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

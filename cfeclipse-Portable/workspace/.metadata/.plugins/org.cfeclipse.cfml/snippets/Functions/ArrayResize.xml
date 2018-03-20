@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ArrayResize" description="ArrayResize(array, minimum_size)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ArrayResize($${array},$${minimum_size})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

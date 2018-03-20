@@ -1,0 +1,17 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;snippet name="cfinput_type_text" description="" preview="code" type="wrap">
+&lt;insertText location="beforeSelection">
+&lt;![CDATA[<cfinput type="text"
+		name="
+ ]]>
+&lt;/insertText>
+&lt;insertText location="afterSelection">&lt;![CDATA["
+		value="#.#"
+		message=" is a Reqired Field"
+		validate="noblanks"
+		required="true"
+		class="text-long">]]>
+&lt;/insertText>
+&lt;/snippet>
+

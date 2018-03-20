@@ -1,0 +1,13 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;snippet name="cfif" description="Simple if statement" preview="code" type="wrap">
+&lt;insertText location="beforeSelection">
+&lt;![CDATA[<cfif 
+ ]]>
+&lt;/insertText>
+&lt;insertText location="afterSelection">&lt;![CDATA[>
+	
+</cfif>]]>
+&lt;/insertText>
+&lt;/snippet>
+

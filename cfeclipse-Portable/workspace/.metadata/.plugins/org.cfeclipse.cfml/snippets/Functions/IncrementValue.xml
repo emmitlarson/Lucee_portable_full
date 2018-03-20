@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IncrementValue</name>
+<help><![CDATA[IncrementValue(number)]]></help>
+<starttext><![CDATA[IncrementValue($${number})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

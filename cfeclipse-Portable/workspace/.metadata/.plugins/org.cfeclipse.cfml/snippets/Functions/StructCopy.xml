@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>StructCopy</name>
+<help><![CDATA[StructCopy(structure)]]></help>
+<starttext><![CDATA[StructCopy($${structure})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>MissingFileName</name>
+	<help>Name of the file that could not be included. TYPE=MissingInclude only</help>
+	<starttext><![CDATA[CFCATCH.MissingFileName]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

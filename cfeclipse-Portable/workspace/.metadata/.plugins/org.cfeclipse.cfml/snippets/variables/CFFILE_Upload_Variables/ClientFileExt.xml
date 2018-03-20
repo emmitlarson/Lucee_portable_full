@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ClientFileExt</name>
+	<help>Extension of the uploaded file on the client?s system without a period</help>
+	<starttext><![CDATA[File.ClientFileExt]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

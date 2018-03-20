@@ -1,0 +1,11 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;snippet name="seperator" description="" preview="code" type="wrap">
+&lt;insertText location="beforeSelection">
+&lt;![CDATA[ <!--- @@@@@@@@@@@@@@@@@ --->
+ ]]>
+&lt;/insertText>
+&lt;insertText location="afterSelection">&lt;![CDATA[]]>
+&lt;/insertText>
+&lt;/snippet>
+

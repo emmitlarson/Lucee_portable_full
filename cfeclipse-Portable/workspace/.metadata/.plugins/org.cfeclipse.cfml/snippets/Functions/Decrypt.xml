@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Decrypt</name>
+<help><![CDATA[Decrypt(encrypted_string, key[, algorithm[, encoding]])]]></help>
+<starttext><![CDATA[Decrypt($${encrypted_string},$${key},$${algorithm},$${encoding})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

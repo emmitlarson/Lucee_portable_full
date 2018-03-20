@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetSOAPResponseHeader</name>
+<help><![CDATA[GetSOAPResponseHeader(webservice, Namespace, Name [, asXML)]]></help>
+<starttext><![CDATA[GetSOAPResponseHeader($${webservice},$${Namespace},$${Name},$${asXML})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

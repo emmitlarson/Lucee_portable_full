@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Succeeded</name>
+	<help>Yes or No dependent on value of ErrorCode</help>
+	<starttext><![CDATA[CFFTP.Succeeded]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

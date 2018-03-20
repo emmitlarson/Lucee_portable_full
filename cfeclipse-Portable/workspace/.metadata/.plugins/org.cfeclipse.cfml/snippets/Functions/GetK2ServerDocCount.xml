@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetK2ServerDocCount</name>
+<help><![CDATA[GetK2ServerDocCount()]]></help>
+<starttext><![CDATA[GetK2ServerDocCount()]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

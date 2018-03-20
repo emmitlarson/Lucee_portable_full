@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Server.ColdFusion.ProductName</name>
+	<help>ColdFusion product name</help>
+	<starttext><![CDATA[Server.ColdFusion.ProductName]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

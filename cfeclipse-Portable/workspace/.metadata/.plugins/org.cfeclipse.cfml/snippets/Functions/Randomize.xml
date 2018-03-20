@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Randomize</name>
+<help><![CDATA[Randomize(number[, algorithm])]]></help>
+<starttext><![CDATA[Randomize($${number},$${algorithm})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

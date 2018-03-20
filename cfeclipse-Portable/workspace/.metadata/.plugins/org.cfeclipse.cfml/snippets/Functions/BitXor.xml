@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="BitXor" description="BitXor(number1, number2)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[BitXor($${number1},$${number2})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

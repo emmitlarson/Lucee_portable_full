@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>location</name>
+<help></help>
+<starttext><![CDATA[<cflocation url="$${URL:}" addToken="$${Add Token:false|true}" />]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

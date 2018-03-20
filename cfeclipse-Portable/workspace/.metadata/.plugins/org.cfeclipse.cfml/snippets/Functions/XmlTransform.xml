@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>XmlTransform</name>
+<help><![CDATA[XmlTransform(xml, xsl[, parameters])]]></help>
+<starttext><![CDATA[XmlTransform($${xml},$${xsl},$${parameters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

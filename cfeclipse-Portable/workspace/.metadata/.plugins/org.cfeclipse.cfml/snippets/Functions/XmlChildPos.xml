@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>XmlChildPos</name>
+<help><![CDATA[XmlChildPos(elem, childName, N)]]></help>
+<starttext><![CDATA[XmlChildPos($${elem},$${childName},$${N})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

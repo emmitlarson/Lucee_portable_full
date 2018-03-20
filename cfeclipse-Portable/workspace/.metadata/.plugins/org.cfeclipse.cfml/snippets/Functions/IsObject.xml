@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsObject</name>
+<help><![CDATA[IsObject(value [,type [,à ]])]]></help>
+<starttext><![CDATA[IsObject($${value},$${type},$${à})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

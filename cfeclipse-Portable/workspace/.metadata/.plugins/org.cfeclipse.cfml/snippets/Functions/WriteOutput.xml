@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>WriteOutput</name>
+<help><![CDATA[WriteOutput(string)]]></help>
+<starttext><![CDATA[WriteOutput($${string})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

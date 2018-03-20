@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ServerFile</name>
+	<help>Filename of the file actually saved</help>
+	<starttext><![CDATA[File.ServerFile]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

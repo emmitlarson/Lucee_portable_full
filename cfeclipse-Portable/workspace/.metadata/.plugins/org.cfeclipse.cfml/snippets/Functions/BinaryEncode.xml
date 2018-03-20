@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="BinaryEncode" description="BinaryEncode(binarydata, encoding)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[BinaryEncode($${binarydata},$${encoding})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

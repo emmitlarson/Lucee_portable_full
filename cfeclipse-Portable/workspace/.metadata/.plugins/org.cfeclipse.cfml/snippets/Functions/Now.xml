@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Now</name>
+<help><![CDATA[Now()]]></help>
+<starttext><![CDATA[Now()]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

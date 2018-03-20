@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListDeleteAt</name>
+<help><![CDATA[ListDeleteAt(list, position [, delimiters ])]]></help>
+<starttext><![CDATA[ListDeleteAt($${list},$${position},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

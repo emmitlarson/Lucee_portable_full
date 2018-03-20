@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>From</name>
+	<help>From value from message header</help>
+	<starttext><![CDATA[From]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

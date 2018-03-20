@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListContains</name>
+<help><![CDATA[ListContains(list, substring [, delimiters ])]]></help>
+<starttext><![CDATA[ListContains($${list},$${substring},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

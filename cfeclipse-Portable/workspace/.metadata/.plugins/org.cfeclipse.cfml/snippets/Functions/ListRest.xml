@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListRest</name>
+<help><![CDATA[ListRest(list [, delimiters ])]]></help>
+<starttext><![CDATA[ListRest($${list},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

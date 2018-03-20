@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Log10</name>
+<help><![CDATA[Log10(number)]]></help>
+<starttext><![CDATA[Log10($${number})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

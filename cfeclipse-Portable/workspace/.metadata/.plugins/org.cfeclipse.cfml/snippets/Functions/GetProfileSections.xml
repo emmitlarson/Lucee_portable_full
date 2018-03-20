@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetProfileSections</name>
+<help><![CDATA[GetProfileSections(iniFile)]]></help>
+<starttext><![CDATA[GetProfileSections($${iniFile})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>component</name>
+<help></help>
+<starttext><![CDATA[<cfcomponent displayname="$${Display Name:}" output="false">
+	
+	
+	<cffunction name="init" access="public" output="false" returnType="">
+	
+	
+	
+	</cffunction>
+	
+	
+]]></starttext>
+<endtext><![CDATA[</cfcomponent>]]></endtext>
+</snippet>

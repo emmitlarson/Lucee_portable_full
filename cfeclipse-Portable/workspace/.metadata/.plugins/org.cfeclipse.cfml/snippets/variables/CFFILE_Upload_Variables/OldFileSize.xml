@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>OldFileSize</name>
+	<help>Size of a file that was overwritten in the file upload operation</help>
+	<starttext><![CDATA[File.OldFileSize]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

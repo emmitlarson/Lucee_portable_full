@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsNumeric</name>
+<help><![CDATA[IsNumeric(string)]]></help>
+<starttext><![CDATA[IsNumeric($${string})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ServerFileExt</name>
+	<help>Extension of the uploaded file on the server, without a period, for example, txt not .txt</help>
+	<starttext><![CDATA[File.ServerFileExt]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

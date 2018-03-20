@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>PATH_INFO</name>
+	<help>The extra path information, as given by the client. In other words, scripts can be accessed by their virtual pathname, followed by extra information at the end of this path. The extra information is sent as PATH_INFO</help>
+	<starttext><![CDATA[PATH_INFO]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

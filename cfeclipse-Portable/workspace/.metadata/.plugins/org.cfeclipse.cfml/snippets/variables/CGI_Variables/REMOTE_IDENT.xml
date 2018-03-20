@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>REMOTE_IDENT</name>
+	<help>If the HTTP server supports RFC 931 identification, then this variable is set to the remote user name retrieved from the server. Usage of this variable should be limited to logging only</help>
+	<starttext><![CDATA[REMOTE_IDENT]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

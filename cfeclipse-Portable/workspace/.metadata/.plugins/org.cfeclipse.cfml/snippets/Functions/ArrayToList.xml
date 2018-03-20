@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ArrayToList" description="ArrayToList(array [, delimiter ])" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ArrayToList($${array},$${delimiter})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

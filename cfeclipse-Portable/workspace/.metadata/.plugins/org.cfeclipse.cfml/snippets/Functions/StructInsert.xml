@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>StructInsert</name>
+<help><![CDATA[StructInsert(structure, key, value [, allowoverwrite ])]]></help>
+<starttext><![CDATA[StructInsert($${structure},$${key},$${value},$${allowoverwrite})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

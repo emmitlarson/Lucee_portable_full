@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>PreserveSingleQuotes</name>
+<help><![CDATA[PreserveSingleQuotes(string_variable)]]></help>
+<starttext><![CDATA[PreserveSingleQuotes($${string_variable})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

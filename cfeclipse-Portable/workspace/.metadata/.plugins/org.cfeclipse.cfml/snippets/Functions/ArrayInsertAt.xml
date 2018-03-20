@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ArrayInsertAt" description="ArrayInsertAt(array, position)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ArrayInsertAt($${array},$${position})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

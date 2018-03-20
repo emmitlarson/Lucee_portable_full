@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetMetricData</name>
+<help><![CDATA[GetMetricData(mode)]]></help>
+<starttext><![CDATA[GetMetricData($${mode})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

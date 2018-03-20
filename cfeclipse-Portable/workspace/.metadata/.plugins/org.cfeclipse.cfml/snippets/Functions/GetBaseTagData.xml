@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetBaseTagData</name>
+<help><![CDATA[GetBaseTagData(tagname [, instancenumber ])]]></help>
+<starttext><![CDATA[GetBaseTagData($${tagname},$${instancenumber})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

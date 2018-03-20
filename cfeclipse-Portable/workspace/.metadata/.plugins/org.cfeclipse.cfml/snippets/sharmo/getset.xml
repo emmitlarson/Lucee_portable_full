@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>getset</name>
+<help></help>
+<starttext><![CDATA[<cffunction name="get$${Variable}" access="public" output="false" returntype="$${Type}">
+	<cfreturn variables.instance.$${Variable} />
+</cffunction>
+
+<cffunction name="set$${Variable}" access="public" output="false" returntype="void">
+	<cfargument name="$${Variable}" type="$${Type}" />
+	<cfset variables.instance.$${Variable} = arguments.$${Variable} />
+</cffunction>]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ClientFileName</name>
+	<help>Filename without an extension of the uploaded file on the client?s system</help>
+	<starttext><![CDATA[File.ClientFileName]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

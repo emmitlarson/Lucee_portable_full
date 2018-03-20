@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>FormatBaseN</name>
+<help><![CDATA[FormatBaseN(number, radix)]]></help>
+<starttext><![CDATA[FormatBaseN($${number},$${radix})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

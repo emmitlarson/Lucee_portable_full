@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListFind</name>
+<help><![CDATA[ListFind(list, value [, delimiters ])]]></help>
+<starttext><![CDATA[ListFind($${list},$${value},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListInsertAt</name>
+<help><![CDATA[ListInsertAt(list, position, value [, delimiters ])]]></help>
+<starttext><![CDATA[ListInsertAt($${list},$${position},$${value},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

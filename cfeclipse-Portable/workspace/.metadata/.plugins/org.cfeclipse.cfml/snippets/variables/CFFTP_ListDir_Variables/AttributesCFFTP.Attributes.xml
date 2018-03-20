@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>AttributesCFFTP.Attributes</name>
+	<help></help>
+	<starttext><![CDATA[String indicating attributes of the current element]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

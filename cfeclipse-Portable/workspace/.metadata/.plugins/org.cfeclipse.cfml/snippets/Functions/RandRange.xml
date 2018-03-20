@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>RandRange</name>
+<help><![CDATA[RandRange(number1, number2[, algorithm])]]></help>
+<starttext><![CDATA[RandRange($${number1},$${number2},$${algorithm})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

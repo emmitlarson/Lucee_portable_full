@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ExecutionTime</name>
+	<help>Execution time for the SQL request</help>
+	<starttext><![CDATA[CFQUERY.ExecutionTime]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>SendGatewayMessage</name>
+<help><![CDATA[SendGatewayMessage(gatewyID, data)]]></help>
+<starttext><![CDATA[SendGatewayMessage($${gatewyID},$${data})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

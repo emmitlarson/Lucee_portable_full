@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CreateODBCDateTime" description="CreateODBCDateTime(date)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[CreateODBCDateTime($${date})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

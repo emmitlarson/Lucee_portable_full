@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListAppend</name>
+<help><![CDATA[ListAppend(list, value [, delimiters ])]]></help>
+<starttext><![CDATA[ListAppend($${list},$${value},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Client.LastVisit</name>
+	<help>Date and time of the last visit</help>
+	<starttext><![CDATA[Client.LastVisit]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

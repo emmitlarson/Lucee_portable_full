@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsLeapYear</name>
+<help><![CDATA[IsLeapYear(year)]]></help>
+<starttext><![CDATA[IsLeapYear($${year})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

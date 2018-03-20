@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>REFind</name>
+<help><![CDATA[REFind(reg_expression, string, start)]]></help>
+<starttext><![CDATA[REFind($${reg_expression},$${string},$${start})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

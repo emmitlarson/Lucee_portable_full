@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>SQLState</name>
+	<help>The SQLState associated with this exception. TYPE=Database only</help>
+	<starttext><![CDATA[CFCATCH.SQLState]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

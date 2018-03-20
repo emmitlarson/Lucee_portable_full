@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>SetProfileString</name>
+<help><![CDATA[SetProfileString(iniPath, section, entry, value)]]></help>
+<starttext><![CDATA[SetProfileString($${iniPath},$${section},$${entry},$${value})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

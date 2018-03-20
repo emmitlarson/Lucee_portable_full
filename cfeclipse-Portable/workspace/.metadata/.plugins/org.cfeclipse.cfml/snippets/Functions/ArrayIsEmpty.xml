@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ArrayIsEmpty" description="ArrayIsEmpty(array)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ArrayIsEmpty($${array})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>UCase</name>
+<help><![CDATA[UCase(string)]]></help>
+<starttext><![CDATA[UCase($${string})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

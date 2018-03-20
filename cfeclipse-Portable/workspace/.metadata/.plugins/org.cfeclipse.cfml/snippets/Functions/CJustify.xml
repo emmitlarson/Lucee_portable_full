@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CJustify" description="Cjustify(string, length)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[CJustify($${string},$${length})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

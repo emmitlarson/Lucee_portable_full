@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsSimpleValue</name>
+<help><![CDATA[IsSimpleValue(value)]]></help>
+<starttext><![CDATA[IsSimpleValue($${value})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

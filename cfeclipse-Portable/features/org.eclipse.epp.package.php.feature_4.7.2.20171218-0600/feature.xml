@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.epp.package.php.feature"
+      label="EPP PHP Feature"
+      version="4.7.2.20171218-0600"
+      provider-name="Eclipse Packaging Project"
+      plugin="org.eclipse.epp.package.php">
+
+   <description url="http://eclipse.org/epp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.platform"
+         version="4.7.2.v20171130-0510"
+         search-location="both"/>
+
+   <requires>
+   <!--
+        All requirements to features and the content of the product are defined 
+        in the product configuration epp.product since Eclipse Neon. For further
+        details see the following bug:
+
+        Bug 332989 - Allow parts of a package to upgraded or removed
+        https://bugs.eclipse.org/bugs/show_bug.cgi?id=332989
+     -->
+   </requires>
+
+   <plugin
+         id="org.eclipse.epp.package.php"
+         download-size="65"
+         install-size="197"
+         version="4.7.2.20171218-0600"/>
+
+</feature>

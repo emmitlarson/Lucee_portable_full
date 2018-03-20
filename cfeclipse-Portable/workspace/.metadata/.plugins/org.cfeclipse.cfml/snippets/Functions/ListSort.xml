@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListSort</name>
+<help><![CDATA[ListSort(list, sort_type [, sort_order] [, delimiters ])]]></help>
+<starttext><![CDATA[ListSort($${list},$${sort_type},$${sort_order},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

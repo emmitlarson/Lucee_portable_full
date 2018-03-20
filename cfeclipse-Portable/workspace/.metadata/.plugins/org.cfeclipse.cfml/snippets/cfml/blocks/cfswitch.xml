@@ -1,0 +1,15 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;snippet name="cfswitch" description="simple cfswitch statement" preview="code" type="wrap">
+&lt;insertText location="beforeSelection">
+&lt;![CDATA[<cfswitch expression="#$${expression}#">
+	<cfcase value="
+ ]]>
+&lt;/insertText>
+&lt;insertText location="afterSelection">&lt;![CDATA[">
+	
+	</cfcase>
+</cfswitch>]]>
+&lt;/insertText>
+&lt;/snippet>
+

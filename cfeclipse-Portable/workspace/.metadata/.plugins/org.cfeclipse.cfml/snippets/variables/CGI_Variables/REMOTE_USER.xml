@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>REMOTE_USER</name>
+	<help>If the server supports user authentication, and the script is protected, this is the username they have authenticated as. (Also available as AUTH_USER.)</help>
+	<starttext><![CDATA[REMOTE_USER]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

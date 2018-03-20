@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>SetEncoding</name>
+<help><![CDATA[SetEncoding(scope_name, charset)]]></help>
+<starttext><![CDATA[SetEncoding($${scope_name},$${charset})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

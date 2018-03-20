@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsK2ServerOnline</name>
+<help><![CDATA[IsK2ServerOnline()]]></help>
+<starttext><![CDATA[IsK2ServerOnline()]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

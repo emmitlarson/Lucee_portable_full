@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Type</name>
+	<help>Returns entry type: F for File, D for Directory</help>
+	<starttext><![CDATA[Type]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

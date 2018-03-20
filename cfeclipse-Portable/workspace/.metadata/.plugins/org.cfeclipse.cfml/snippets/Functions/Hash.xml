@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Hash</name>
+<help><![CDATA[Hash(string [,algorithm [,encoding ]]))]]></help>
+<starttext><![CDATA[Hash($${string},$${algorithm},$${encoding})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>QUERY_STRING</name>
+	<help>The query information that follows the ? in the URL that referenced this script</help>
+	<starttext><![CDATA[QUERY_STRING]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

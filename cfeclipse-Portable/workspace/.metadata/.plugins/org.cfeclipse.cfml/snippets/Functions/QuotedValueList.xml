@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>QuotedValueList</name>
+<help><![CDATA[QuotedValueList(query.column [, delimiter ])]]></help>
+<starttext><![CDATA[QuotedValueList($${query.column},$${delimiter})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

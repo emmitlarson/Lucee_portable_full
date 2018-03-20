@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Server.ColdFusion.SerialNumber</name>
+	<help>ColdFusion serial number</help>
+	<starttext><![CDATA[Server.ColdFusion.SerialNumber]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsCustomFunction</name>
+<help><![CDATA[IsCustomFunction(name)]]></help>
+<starttext><![CDATA[IsCustomFunction($${name})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>QueryAddRow</name>
+<help><![CDATA[QueryAddRow(query [, number ])]]></help>
+<starttext><![CDATA[QueryAddRow($${query},$${number})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

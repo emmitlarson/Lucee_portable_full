@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetToken</name>
+<help><![CDATA[GetToken(string, index [, delimiters ])]]></help>
+<starttext><![CDATA[GetToken($${string},$${index},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

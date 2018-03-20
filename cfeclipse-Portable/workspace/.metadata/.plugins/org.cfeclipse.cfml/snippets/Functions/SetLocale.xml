@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>SetLocale</name>
+<help><![CDATA[SetLocale(new_locale [,variant ])]]></help>
+<starttext><![CDATA[SetLocale($${new_locale},$${variant})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

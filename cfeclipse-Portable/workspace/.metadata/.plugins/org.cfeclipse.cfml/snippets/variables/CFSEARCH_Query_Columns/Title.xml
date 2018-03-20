@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Title</name>
+	<help>Returns the value of the TITLE attribute defined by the &lt;TITLE&gt; HTML tag in any HTML or ColdFusion template file that was indexed by CFINDEX. If the collection was TYPE=CUSTOM, TITLE returns the value of the TITLE attribute defined by the CFINDEX tag. If the collection was TYPE=FILE, TITLE also returns the value of the TITLE attribute defined by the CFINDEX tag</help>
+	<starttext><![CDATA[Title]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

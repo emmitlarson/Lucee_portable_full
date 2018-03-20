@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="logentry" description="A log entry" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$${Name}		$${DAYOFMONTH}/$${MONTHNUMBER}/$${YEAR}		$${Description}
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

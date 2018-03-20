@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ClientDirectory</name>
+	<help>Full path of the uploaded file on the client?s system</help>
+	<starttext><![CDATA[File.ClientDirectory]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

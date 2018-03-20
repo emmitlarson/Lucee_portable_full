@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Path</name>
+	<help>File path (without the drive designation) of the current element</help>
+	<starttext><![CDATA[CFFTP.Path]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

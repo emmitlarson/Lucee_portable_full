@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ArrayPrepend" description="ArrayPrepend(array, value)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ArrayPrepend($${array},$${value})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

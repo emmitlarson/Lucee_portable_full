@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>StructSort</name>
+<help><![CDATA[StructSort(base [, sortType, sortOrder, pathToSubElement])]]></help>
+<starttext><![CDATA[StructSort($${base},$${sortType},$${sortOrder},$${pathToSubElement})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

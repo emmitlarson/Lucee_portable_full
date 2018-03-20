@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="../../../PRODUCT_PLUGIN/book.css" type="text/css">
+	<title>Getting Started: Configuring Global Preferences</title>
+</head>
+
+<body>
+<h1>Getting Started: Configuring Global Preferences</h1>
+
+<h2>The preferences</h2>
+<p>
+There are 2 global preferences:
+
+	<ul>
+		<li>Remote Facade URL</li>
+		<li>Method Timeout</li>
+	</ul>
+</p>
+
+<h2>Why</h2>
+<p>
+This plugin works by making soap (i.e. webservice) calls to a URL. By default, that URL is to a RemoteFacade.cfc that 
+comes bundled with the MXUnit framework. When you first installed the plugin, it made a reasonable attempt at 
+guessing the location of this Remote URL, but more than likely it guessed wrong... so you'll need to set it up correctly. 
+</p>
+
+<p>Regarding Method Timeout: The plugin makes a separate call to CF for <i>every single test method</i>. The Method Timeout setting allows you to specify a maximum amount of time, in seconds, the test runner should wait for a single test method to complete. If a method call does not complete in the time specified, the plugin stops trying and moves on to the next test method. You can use a setting of "0" seconds to specify NO Timeout. The default setting is 30 seconds, which would allow an extremely long-running test. </p>
+<h2>How</h2>
+<ol>
+  <li>Window -- Preferences -- MXUnit</li>
+	<li>Check and correct the URL if necessary. For example, maybe it currently reads "http://localhost/mxunit/framework/RemoteFacade.cfc" </li>
+	but your CF installation is at localhost:8501. Change the URL accordingly.
+	<li>Set any value between 0 and 180 for the method timeout.</li>
+</ol>
+In addition, the method timeout can be changed by clicking on the dropdown triangle to the right side of the MXUnit view and clicking the "Change Timeout Preference" menu item. From there, enter your desired value.
+</p>
+
+<h2>Overriding these preferences for special cases</h2>
+<p>
+There are times when these preferences won't suit your needs:
+<ul>
+	<li>You need custom remote functionality. For example, you need the RemoteFacade.cfc to include a custom Application.cfm file for every test</li>
+	<li>You're testing components that use ColdFusion's built-in Hibernate ORM. In those cases, the components will not work correctly if they aren't run under the context of their Application.cfc. </li>
+</ul>
+In these cases, you'll need to <a href="configureProjectProperties.html">override certain properties at the project level</a>.
+</p>
+
+</body>
+</html>

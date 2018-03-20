@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>StatusCode</name>
+	<help>Status code for the stored procedure</help>
+	<starttext><![CDATA[CFSTOREDPROC.StatusCode]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

@@ -1,0 +1,15 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;snippet name="cfcase" description="Simple case statement" preview="code" type="wrap">
+&lt;insertText location="beforeSelection">
+&lt;![CDATA[
+<cfcase value="
+ ]]>
+&lt;/insertText>
+&lt;insertText location="afterSelection">&lt;![CDATA[">
+
+</cfcase>
+]]>
+&lt;/insertText>
+&lt;/snippet>
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.cfeclipse.cfml.feature"
+      label="CFEclipse (including MXUnit and Frameworks)"
+      version="1.5.3.201801060734"
+      provider-name="CFEclipse Project"
+      plugin="org.cfeclipse.cfml">
+
+   <description url="http://www.cfeclipse.org">
+      CFEclipse is a feature-rich CFML (ColdFusion Markup Language)
+plugin for Eclipse. This plugin adds syntax highlighting, code
+insight, CFML script (cfscript) editing, a content outline, code
+problem finding, and a lot more for CF developers. It also provides
+code highlighting for HTML, XML and for inline CSS and Javascript,
+plus code insight for HTML 4.01, and a snippet (code fragment)
+feature. CFML is a simple, yet powerful server side scripting
+language that sits on top of a J2EE server. Three companies that
+make engines that can process CFML scripts are Adobe,
+New Atlanta, and Railo Technologies. Features: * Code highlighting * HTML and CF tag
+code completion * Tag and function code insight (including data
+types) * Snips for frequently used code * CFC method outline
+view * Integrated web browser for quick previewing * Problem
+view, parses your code to find problems * And much more...
+   </description>
+
+   <copyright url="http://www.cfeclipse.org/copyright">
+      Copyright (c) 2004-2016 The CFEclipse Crew (http://www.cfeclipse.org/)
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+&amp;amp;quot;Software&amp;amp;quot;), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the 
+Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED &amp;amp;quot;AS IS&amp;amp;quot;, WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+   </copyright>
+
+   <license url="http://www.jclark.com/xml/copying.txt">
+      Copyright (c) 2004-2016 The CFEclipse Crew (http://www.cfeclipse.org/)
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+&amp;amp;quot;Software&amp;amp;quot;), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the 
+Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED &amp;amp;quot;AS IS&amp;amp;quot;, WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+   </license>
+
+   <url>
+      <update label="CFEclipse Update Site" url="http://www.cfeclipse.org/update"/>
+      <discovery label="CFEclipse discovery site" url="http://cfeclipse.org/update"/>
+      <discovery label="CFParser discovery site" url="http://cfeclipse.org/cfparser/update"/>
+      <discovery label="[dev] CFParser discovery site" url="http://cfeclipse.org/cfparser/update-dev"/>
+      <discovery label="CFLint discovery site" url="http://cfeclipse.org/cflint/update"/>
+      <discovery label="[dev] CFLint discovery site" url="http://cfeclipse.org/cflint/update-dev"/>
+      <discovery label="MXUnit discovery site" url="http://cfeclipse.org/mxunit/update"/>
+      <discovery label="Snippets discovery site" url="http://cfeclipse.org/snippets/update"/>
+   </url>
+
+   <includes
+         id="org.cfeclipse.cfml.snippets.feature"
+         version="1.0.0.201512132357"
+         search-location="both"/>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.ui.browser"/>
+      <import plugin="org.eclipse.search"/>
+      <import plugin="org.cfeclipse.cfparser" version="2.2.11" match="greaterOrEqual"/>
+      <import plugin="org.cfeclipse.cflint" version="1.0.10" match="greaterOrEqual"/>
+      <import plugin="com.ibm.icu"/>
+      <import plugin="org.eclipse.ui.console"/>
+      <import plugin="org.eclipse.swt"/>
+      <import plugin="org.eclipse.core.filesystem"/>
+      <import feature="org.mxunit.eclipseplugin.feature" version="1.5.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.cfeclipse.cfml"
+         download-size="13526"
+         install-size="29910"
+         version="1.5.3.201801060734"/>
+
+   <plugin
+         id="org.cfeclipse.cfml.frameworks"
+         download-size="726"
+         install-size="778"
+         version="1.0.3.4"/>
+
+   <plugin
+         id="org.cfeclipse.cfml.templates.fragment"
+         download-size="4"
+         install-size="5"
+         version="1.0.0.3"
+         fragment="true"/>
+
+   <plugin
+         id="org.cfeclipse.cfeclipsecall.plugin"
+         download-size="43"
+         install-size="74"
+         version="1.1.0.3"/>
+
+</feature>

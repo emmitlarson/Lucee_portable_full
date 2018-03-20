@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Message</name>
+	<help>Diagnostic message, if provided</help>
+	<starttext><![CDATA[CFCATCH.Message]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

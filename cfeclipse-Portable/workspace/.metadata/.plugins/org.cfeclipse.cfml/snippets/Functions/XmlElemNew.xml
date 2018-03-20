@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>XmlElemNew</name>
+<help><![CDATA[XmlElemNew(xmlObj[, namespace], childName)]]></help>
+<starttext><![CDATA[XmlElemNew($${xmlObj},$${namespace},$${childName})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

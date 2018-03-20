@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ArraySet" description="ArraySet(array, start_pos, end_pos, value)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ArraySet($${array},$${start_pos},$${end_pos},$${value})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Server.OS.BuildNumber</name>
+	<help>Build number of the host operating system</help>
+	<starttext><![CDATA[Server.OS.BuildNumber]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

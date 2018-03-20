@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>LSIsDate</name>
+<help><![CDATA[LSIsDate(string)]]></help>
+<starttext><![CDATA[LSIsDate($${string})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

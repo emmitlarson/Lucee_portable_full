@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ALL_HTTP</name>
+	<help>All HTTP headers that were not already parsed into one of the listed variables. These variables are of the form HTTP_header field name with each variable separated by a semi-colon</help>
+	<starttext><![CDATA[ALL_HTTP]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

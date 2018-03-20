@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>argument</name>
+<help></help>
+<starttext><![CDATA[<cfargument name="$${Name:}" type="$${Type:string|struct|query|numeric|void}" required="$${Required:true|false}" hint="$${Hint:}" />]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

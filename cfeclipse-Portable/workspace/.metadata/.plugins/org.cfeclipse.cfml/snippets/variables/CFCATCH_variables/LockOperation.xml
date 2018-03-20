@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>LockOperation</name>
+	<help>The operation that failed (set to Timeout, Create MuteEx, or Unknown). TYPE=Lock only</help>
+	<starttext><![CDATA[CFCATCH.LockOperation]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

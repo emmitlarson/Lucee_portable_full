@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>DatePart</name>
+<help><![CDATA[DatePart(datepart, date)]]></help>
+<starttext><![CDATA[DatePart($${datepart},$${date})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

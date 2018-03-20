@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Pi</name>
+<help><![CDATA[Pi()]]></help>
+<starttext><![CDATA[Pi()]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

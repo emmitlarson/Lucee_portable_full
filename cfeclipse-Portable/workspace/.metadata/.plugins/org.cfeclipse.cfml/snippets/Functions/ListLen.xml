@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListLen</name>
+<help><![CDATA[ListLen(list [, delimiters ])]]></help>
+<starttext><![CDATA[ListLen($${list},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

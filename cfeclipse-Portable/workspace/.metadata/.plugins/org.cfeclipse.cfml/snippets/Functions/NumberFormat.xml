@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>NumberFormat</name>
+<help><![CDATA[NumberFormat(number [, mask ])]]></help>
+<starttext><![CDATA[NumberFormat($${number},$${mask})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

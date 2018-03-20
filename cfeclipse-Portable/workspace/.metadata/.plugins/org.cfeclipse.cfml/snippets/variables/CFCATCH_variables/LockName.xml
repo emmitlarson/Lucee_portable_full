@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>LockName</name>
+	<help>The name of the affected lock (set to anonymous if the lock was unnamed). TYPE=Lock only</help>
+	<starttext><![CDATA[CFCATCH.LockName]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

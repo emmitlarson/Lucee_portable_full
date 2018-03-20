@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Find</name>
+<help><![CDATA[Find(substring, string [, start ])]]></help>
+<starttext><![CDATA[Find($${substring},$${string},$${start})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>DecimalFormat</name>
+<help><![CDATA[DecimalFormat(number)]]></help>
+<starttext><![CDATA[DecimalFormat($${number})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

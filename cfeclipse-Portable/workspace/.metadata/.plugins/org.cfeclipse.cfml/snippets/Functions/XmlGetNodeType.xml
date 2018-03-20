@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>XmlGetNodeType</name>
+<help><![CDATA[XmlGetNodeType(xmlNode)]]></help>
+<starttext><![CDATA[XmlGetNodeType($${xmlNode})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

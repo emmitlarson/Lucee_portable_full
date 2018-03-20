@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ArrayMax" description="ArrayMax(array)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ArrayMax($${array})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

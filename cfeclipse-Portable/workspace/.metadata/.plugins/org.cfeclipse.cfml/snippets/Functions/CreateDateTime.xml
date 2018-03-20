@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CreateDateTime" description="CreateDateTime(year, month, day, hour, minute, second)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[CreateDateTime($${year},$${month},$${day},$${hour},$${minute},$${second})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

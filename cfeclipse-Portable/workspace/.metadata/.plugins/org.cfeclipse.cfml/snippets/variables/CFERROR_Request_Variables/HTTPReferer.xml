@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>HTTPReferer</name>
+	<help>Page from which the client accessed the link to the page where the error occurred</help>
+	<starttext><![CDATA[Error.HTTPReferer]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

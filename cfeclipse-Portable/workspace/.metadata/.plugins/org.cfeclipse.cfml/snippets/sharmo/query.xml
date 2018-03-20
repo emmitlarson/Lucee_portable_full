@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>query</name>
+<help></help>
+<starttext><![CDATA[<cfquery name="$${Name:}" datasource="#variables.dsn#">]]></starttext>
+<endtext><![CDATA[</cfquery>]]></endtext>
+</snippet>

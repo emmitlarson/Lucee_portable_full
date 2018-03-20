@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Client.CFID</name>
+	<help>Unique client ID. Part of the session key</help>
+	<starttext><![CDATA[Client.CFID]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

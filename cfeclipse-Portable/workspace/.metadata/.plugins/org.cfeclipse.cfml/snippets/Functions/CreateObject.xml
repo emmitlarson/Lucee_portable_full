@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CreateObject" description="CreateObject(class,context,serverName)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[CreateObject($${class},$${context},$${serverName})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

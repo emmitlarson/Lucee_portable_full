@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>XMLFormat</name>
+<help><![CDATA[XmlFormat(string)]]></help>
+<starttext><![CDATA[XMLFormat($${string})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

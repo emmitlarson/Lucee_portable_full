@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>REMOTE_ADDR</name>
+	<help>The IP address of the remote host making the request</help>
+	<starttext><![CDATA[REMOTE_ADDR]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

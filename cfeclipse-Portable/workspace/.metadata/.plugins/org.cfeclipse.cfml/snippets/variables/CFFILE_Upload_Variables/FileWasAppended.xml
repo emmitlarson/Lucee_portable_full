@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>FileWasAppended</name>
+	<help>Specifies whether or not ColdFusion appended a file to an existing file. Indicates Yes or No</help>
+	<starttext><![CDATA[File.FileWasAppended]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

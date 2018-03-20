@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsK2ServerABroker</name>
+<help><![CDATA[IsK2ServerABroker()]]></help>
+<starttext><![CDATA[IsK2ServerABroker()]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

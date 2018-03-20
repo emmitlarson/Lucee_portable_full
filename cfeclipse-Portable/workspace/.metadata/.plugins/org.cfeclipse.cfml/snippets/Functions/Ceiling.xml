@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Ceiling" description="Ceiling(number)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[Ceiling($${number})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

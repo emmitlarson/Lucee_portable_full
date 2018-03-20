@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>URL</name>
+	<help>Complete URL for the current element (file or directory)</help>
+	<starttext><![CDATA[CFFTP.URL]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

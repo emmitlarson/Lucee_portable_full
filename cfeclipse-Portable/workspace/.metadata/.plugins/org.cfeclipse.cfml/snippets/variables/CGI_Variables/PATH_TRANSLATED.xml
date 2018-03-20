@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>PATH_TRANSLATED</name>
+	<help>The server provides a translated version of PATH_INFO, which takes the path and does any virtual-to-physical mapping to it</help>
+	<starttext><![CDATA[PATH_TRANSLATED]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

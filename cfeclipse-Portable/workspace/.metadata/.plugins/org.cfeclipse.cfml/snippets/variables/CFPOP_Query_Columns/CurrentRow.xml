@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>CurrentRow</name>
+	<help>The current row of the query being processed by CFOUTPUT in a query-driven loop</help>
+	<starttext><![CDATA[CurrentRow]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

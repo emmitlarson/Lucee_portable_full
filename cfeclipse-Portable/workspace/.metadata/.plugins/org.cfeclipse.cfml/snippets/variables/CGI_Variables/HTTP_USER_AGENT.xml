@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>HTTP_USER_AGENT</name>
+	<help>The browser the client is currently using to send the request. Format: software/version library/version</help>
+	<starttext><![CDATA[HTTP_USER_AGENT]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

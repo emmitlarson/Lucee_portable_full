@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ServerDirectory</name>
+	<help>Full path of the file actually saved</help>
+	<starttext><![CDATA[File.ServerDirectory]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

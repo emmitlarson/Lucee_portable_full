@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>AUTH_TYPE</name>
+	<help>If the server supports user authentication, and the script is protected, this is the protocol-specific authentication method used to validate the user</help>
+	<starttext><![CDATA[AUTH_TYPE]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ReplyTo</name>
+	<help>ReplyTo value from message header</help>
+	<starttext><![CDATA[ReplyTo]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

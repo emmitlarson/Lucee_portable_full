@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>StructKeyExists</name>
+<help><![CDATA[StructKeyExists(structure, key)]]></help>
+<starttext><![CDATA[StructKeyExists($${structure},$${key})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

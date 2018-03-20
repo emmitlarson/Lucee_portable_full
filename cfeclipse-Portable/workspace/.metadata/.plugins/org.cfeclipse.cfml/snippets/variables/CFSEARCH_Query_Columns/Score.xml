@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Score</name>
+	<help>Returns the relevancy score of the document based on the search criteria</help>
+	<starttext><![CDATA[Score]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

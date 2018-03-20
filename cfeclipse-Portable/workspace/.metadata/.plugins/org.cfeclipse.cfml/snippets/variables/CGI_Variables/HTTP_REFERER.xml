@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>HTTP_REFERER</name>
+	<help>The referring document. The document that linked to or submitted form data</help>
+	<starttext><![CDATA[HTTP_REFERER]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

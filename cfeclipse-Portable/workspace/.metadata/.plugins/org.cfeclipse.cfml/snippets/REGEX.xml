@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>REGEX</name>
+<help></help>
+<starttext><![CDATA[^(.+)$ ]]></starttext>
+<endtext><![CDATA[<li><a href="#aba">$1</a></li>]]></endtext>
+</snippet>

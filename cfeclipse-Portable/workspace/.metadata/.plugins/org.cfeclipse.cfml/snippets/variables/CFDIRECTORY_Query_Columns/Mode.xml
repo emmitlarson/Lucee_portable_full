@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Mode</name>
+	<help>(Solaris only) The octal value representing the permissions setting for the specified directory. For information about octal values, refer to the UNIX man pages for the chmod shell command</help>
+	<starttext><![CDATA[Mode]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

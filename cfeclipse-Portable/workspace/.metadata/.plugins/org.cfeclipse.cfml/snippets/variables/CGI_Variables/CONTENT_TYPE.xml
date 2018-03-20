@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>CONTENT_TYPE</name>
+	<help>For queries that have attached information, such as HTTP POST and PUT, this is the content type of the data</help>
+	<starttext><![CDATA[CONTENT_TYPE]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

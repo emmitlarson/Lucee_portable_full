@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>REFindNoCase</name>
+<help><![CDATA[REFindNoCase(reg_expression, string [, start ] [, returnsubexpressions ])]]></help>
+<starttext><![CDATA[REFindNoCase($${reg_expression},$${string},$${start},$${returnsubexpressions})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

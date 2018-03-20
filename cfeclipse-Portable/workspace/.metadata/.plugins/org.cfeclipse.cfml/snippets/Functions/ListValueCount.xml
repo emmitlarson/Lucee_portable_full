@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListValueCount</name>
+<help><![CDATA[ListValueCount(list, value [, delimiter ])]]></help>
+<starttext><![CDATA[ListValueCount($${list},$${value},$${delimiter})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

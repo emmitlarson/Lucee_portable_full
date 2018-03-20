@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetMetaData</name>
+<help><![CDATA[GetMetaData(object)]]></help>
+<starttext><![CDATA[GetMetaData($${object})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

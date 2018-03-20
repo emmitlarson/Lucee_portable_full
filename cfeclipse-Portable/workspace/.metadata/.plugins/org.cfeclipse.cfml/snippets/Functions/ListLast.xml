@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListLast</name>
+<help><![CDATA[ListLast(list [, delimiters ])]]></help>
+<starttext><![CDATA[ListLast($${list},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

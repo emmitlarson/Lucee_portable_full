@@ -1,0 +1,11 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;snippet name="WriteOutput" description="" preview="code" type="wrap">
+&lt;insertText location="beforeSelection">
+&lt;![CDATA[WriteOutput(
+ ]]>
+&lt;/insertText>
+&lt;insertText location="afterSelection">&lt;![CDATA[ & "<br>"); ]]>
+&lt;/insertText>
+&lt;/snippet>
+

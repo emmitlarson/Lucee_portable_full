@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListSetAt</name>
+<help><![CDATA[ListSetAt(list, position, value [, delimiters ])]]></help>
+<starttext><![CDATA[ListSetAt($${list},$${position},$${value},$${delimiters})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

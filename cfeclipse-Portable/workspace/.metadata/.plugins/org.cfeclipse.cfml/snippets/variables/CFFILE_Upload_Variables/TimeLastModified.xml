@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>TimeLastModified</name>
+	<help>Date and time of the last modification to the uploaded file</help>
+	<starttext><![CDATA[File.TimeLastModified]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

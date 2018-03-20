@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>URLDecode</name>
+<help><![CDATA[URLDecode(string [, charset ])]]></help>
+<starttext><![CDATA[URLDecode($${string},$${charset})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

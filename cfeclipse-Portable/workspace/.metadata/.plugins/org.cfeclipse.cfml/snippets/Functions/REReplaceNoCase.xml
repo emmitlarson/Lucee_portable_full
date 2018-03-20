@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>REReplaceNoCase</name>
+<help><![CDATA[REReplaceNoCase(string, reg_expression, substring [, scope ])]]></help>
+<starttext><![CDATA[REReplaceNoCase($${string},$${reg_expression},$${substring},$${scope})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

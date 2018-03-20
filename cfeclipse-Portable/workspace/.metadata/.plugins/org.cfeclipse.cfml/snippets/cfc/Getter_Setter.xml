@@ -1,0 +1,19 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Getter_Setter" description="Creates get and set functions for a property" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[
+<cffunction name="get$${Variable}" returntype="$${Type}">
+	<cfreturn this.$${Variable} />
+</cffunction>
+
+<cffunction name="set$$Variable}">
+	<cfargument  name="local_$${Variable}" type="$${Type}" />
+	<cfset this.$${Variable} = local_$${Variable} />
+</cffunction>
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

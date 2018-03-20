@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetEncoding</name>
+<help><![CDATA[GetEncoding(scope_name)]]></help>
+<starttext><![CDATA[GetEncoding($${scope_name})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

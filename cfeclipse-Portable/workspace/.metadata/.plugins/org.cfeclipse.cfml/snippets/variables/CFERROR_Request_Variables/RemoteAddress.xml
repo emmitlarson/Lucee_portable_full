@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>RemoteAddress</name>
+	<help>IP address of the remote client</help>
+	<starttext><![CDATA[Error.RemoteAddress]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

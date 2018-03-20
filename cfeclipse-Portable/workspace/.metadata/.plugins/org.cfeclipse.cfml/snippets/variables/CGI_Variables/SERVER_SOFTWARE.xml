@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>SERVER_SOFTWARE</name>
+	<help>The name and version of the information server software answering the request (and running the gateway). Format: name/version</help>
+	<starttext><![CDATA[SERVER_SOFTWARE]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

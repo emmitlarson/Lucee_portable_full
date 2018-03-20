@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>MIMEType</name>
+	<help>The MIME associated with the retrieved file</help>
+	<starttext><![CDATA[CFHTTP.MIMEType]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

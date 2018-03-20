@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListToArray</name>
+<help><![CDATA[ListToArray(list [, delimiter ])]]></help>
+<starttext><![CDATA[ListToArray($${list},$${delimiter})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetHttpRequestData</name>
+<help><![CDATA[GetHttpRequestData()]]></help>
+<starttext><![CDATA[GetHttpRequestData()]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

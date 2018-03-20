@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>StructClear</name>
+<help><![CDATA[StructClear(structure)]]></help>
+<starttext><![CDATA[StructClear($${structure})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

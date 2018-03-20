@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>XmlValidate</name>
+<help><![CDATA[XmlValidate(xmlDoc[, validator])]]></help>
+<starttext><![CDATA[XmlValidate($${xmlDoc},$${validator})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

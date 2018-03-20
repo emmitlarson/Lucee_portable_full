@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>SpanIncluding</name>
+<help><![CDATA[SpanIncluding(string, set)]]></help>
+<starttext><![CDATA[SpanIncluding($${string},$${set})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

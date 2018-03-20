@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Exp</name>
+<help><![CDATA[Exp(number)]]></help>
+<starttext><![CDATA[Exp($${number})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

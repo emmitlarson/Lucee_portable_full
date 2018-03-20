@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>For  loop</name>
+<help></help>
+<starttext><![CDATA[ For (i=1;i LTE 3; i=i+1)
+ 	{
+		]]></starttext>
+<endtext><![CDATA[	}]]></endtext>
+</snippet>

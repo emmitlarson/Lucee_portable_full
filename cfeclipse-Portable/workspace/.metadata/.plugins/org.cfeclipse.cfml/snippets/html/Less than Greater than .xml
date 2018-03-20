@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Less than Greater than </name>
+<help></help>
+<starttext><![CDATA[&lt; ]]></starttext>
+<endtext><![CDATA[&gt;]]></endtext>
+</snippet>

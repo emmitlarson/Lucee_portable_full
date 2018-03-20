@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ListValueCountNoCase</name>
+<help><![CDATA[ListValueCountNoCase(list, value [, delimiter ])]]></help>
+<starttext><![CDATA[ListValueCountNoCase($${list},$${value},$${delimiter})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

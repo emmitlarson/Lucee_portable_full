@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ArraySort" description="ArraySort(array, sort_type [, sort_order ])" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ArraySort($${array},$${sort_type},$${sort_order})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

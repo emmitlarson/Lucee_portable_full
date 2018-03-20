@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ToScript</name>
+<help><![CDATA[ToScript(cfvar ,javascriptvar ,outputformat ,ASFormat)]]></help>
+<starttext><![CDATA[ToScript($${cfvar},$${javascriptvar},$${outputformat},$${ASFormat})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

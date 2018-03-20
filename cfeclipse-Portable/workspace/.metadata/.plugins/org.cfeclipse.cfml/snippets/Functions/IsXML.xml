@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsXML</name>
+<help><![CDATA[IsXML(value)]]></help>
+<starttext><![CDATA[IsXML($${value})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

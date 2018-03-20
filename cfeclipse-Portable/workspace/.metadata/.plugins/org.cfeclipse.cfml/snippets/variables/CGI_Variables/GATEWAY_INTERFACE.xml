@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>GATEWAY_INTERFACE</name>
+	<help>The revision of the CGI specification to which this server complies. Format: CGI/revision</help>
+	<starttext><![CDATA[GATEWAY_INTERFACE]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

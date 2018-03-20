@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ParseDateTime</name>
+<help><![CDATA[ParseDateTime(string1, string2)]]></help>
+<starttext><![CDATA[ParseDateTime($${string1},$${string2})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

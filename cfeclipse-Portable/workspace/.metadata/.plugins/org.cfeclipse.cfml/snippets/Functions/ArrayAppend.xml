@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ArrayAppend" description="ArrayAppend(array, value)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ArrayAppend($${array},$${value})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

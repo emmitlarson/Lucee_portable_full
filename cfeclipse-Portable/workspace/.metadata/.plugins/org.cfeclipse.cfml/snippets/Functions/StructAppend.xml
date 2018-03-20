@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>StructAppend</name>
+<help><![CDATA[StructAppend((Struct1, Struct2 [, OverwriteFlag])]]></help>
+<starttext><![CDATA[StructAppend($${Struct1},$${Struct2},$${OverwriteFlag})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

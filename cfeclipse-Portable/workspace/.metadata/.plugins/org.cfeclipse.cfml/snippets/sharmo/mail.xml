@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>mail</name>
+<help></help>
+<starttext><![CDATA[<cfmail to="$${To}" from="$${From:me@me.com}" subject="$${Subject:Test email}" type="$${Type:html|plain}">]]></starttext>
+<endtext><![CDATA[</cfmail>]]></endtext>
+</snippet>

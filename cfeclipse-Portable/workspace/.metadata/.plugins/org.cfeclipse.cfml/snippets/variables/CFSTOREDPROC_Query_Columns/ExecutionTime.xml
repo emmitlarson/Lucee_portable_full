@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>ExecutionTime</name>
+	<help>Execution time for the request</help>
+	<starttext><![CDATA[CFSTOREDPROC.ExecutionTime]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

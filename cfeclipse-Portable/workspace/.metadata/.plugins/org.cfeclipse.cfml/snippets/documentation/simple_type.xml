@@ -1,0 +1,16 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="simple_type" description="Simple documentation type (lifted from many types)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- $${CURRENTFILE} -->
+<!---
+	Date: $${MONTHNUMBER}/$${DAYOFMONTH}/$${YEAR}
+	Author: $${USERNAME}
+	Purpose: 
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[
+--->]]>
+</insertText>
+</snippet>
+

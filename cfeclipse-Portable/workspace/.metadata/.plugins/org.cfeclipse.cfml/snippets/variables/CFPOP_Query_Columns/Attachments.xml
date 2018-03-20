@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Attachments</name>
+	<help>Contains a tab-separated list of all original attachment names when ACTION=GETALL</help>
+	<starttext><![CDATA[Attachments]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

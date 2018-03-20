@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetSOAPRequest</name>
+<help><![CDATA[GetSOAPRequest()]]></help>
+<starttext><![CDATA[GetSOAPRequest()]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

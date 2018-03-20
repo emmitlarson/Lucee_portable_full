@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Client.TimeCreated</name>
+	<help>CFID creation date and time</help>
+	<starttext><![CDATA[Client.TimeCreated]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

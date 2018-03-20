@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Client.CFToken</name>
+	<help>Unique ID. Part of the session key</help>
+	<starttext><![CDATA[Client.CFToken]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Replace</name>
+<help><![CDATA[Replace(string, substring1, substring2 [, scope ])]]></help>
+<starttext><![CDATA[Replace($${string},$${substring1},$${substring2},$${scope})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,16 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;snippet name="cftry_catch" description="simple try/catch block" preview="code" type="wrap">
+&lt;insertText location="beforeSelection">
+&lt;![CDATA[<cftry>
+	
+ ]]>
+&lt;/insertText>
+&lt;insertText location="afterSelection">&lt;![CDATA[
+	<cfcatch type="$${catch_type:Any}">
+		
+	</cfcatch>
+</cftry>]]>
+&lt;/insertText>
+&lt;/snippet>
+

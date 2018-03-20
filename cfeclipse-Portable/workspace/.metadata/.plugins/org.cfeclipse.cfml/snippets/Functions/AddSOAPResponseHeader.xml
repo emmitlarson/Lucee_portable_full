@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="AddSOAPResponseHeader" description="AddSOAPResponseHeader(Namespace, Name, Value [, mustunderstand])" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[AddSOAPResponseHeader($${Namespace},$${Name},$${Value},$${mustunderstand})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

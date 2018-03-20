@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ToBinary</name>
+<help><![CDATA[ToBinary(string)]]></help>
+<starttext><![CDATA[ToBinary($${string})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

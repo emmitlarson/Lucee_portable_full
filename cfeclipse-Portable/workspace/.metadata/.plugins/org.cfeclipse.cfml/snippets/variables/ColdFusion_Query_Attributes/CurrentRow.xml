@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>CurrentRow</name>
+	<help>Row number for current row within the query</help>
+	<starttext><![CDATA[CurrentRow]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

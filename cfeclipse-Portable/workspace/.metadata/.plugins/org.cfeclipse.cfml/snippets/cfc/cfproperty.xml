@@ -1,0 +1,12 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="cfproperty" description="Creates a cfc property" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[
+<cfproperty name="$${Name}" type="$${Type}" />
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

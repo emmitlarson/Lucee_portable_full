@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>LSParseCurrency</name>
+<help><![CDATA[LSParseCurrency(string)]]></help>
+<starttext><![CDATA[LSParseCurrency($${string})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

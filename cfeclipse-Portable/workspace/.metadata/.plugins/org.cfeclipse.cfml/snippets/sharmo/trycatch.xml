@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>trycatch</name>
+<help></help>
+<starttext><![CDATA[	<cftry>]]></starttext>
+<endtext><![CDATA[
+	
+	
+		<cfcatch type="any">
+		
+		</cfcatch>
+	
+	</cftry>]]></endtext>
+</snippet>

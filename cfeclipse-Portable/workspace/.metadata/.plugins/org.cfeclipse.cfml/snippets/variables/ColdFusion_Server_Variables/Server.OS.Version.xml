@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Server.OS.Version</name>
+	<help>Operating system version</help>
+	<starttext><![CDATA[Server.OS.Version]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

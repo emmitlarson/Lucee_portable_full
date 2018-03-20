@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>a href</name>
+<help></help>
+<starttext><![CDATA[<a href=""  target="_blank" name="" title="" id="" class="">]]></starttext>
+<endtext><![CDATA[</a>]]></endtext>
+</snippet>

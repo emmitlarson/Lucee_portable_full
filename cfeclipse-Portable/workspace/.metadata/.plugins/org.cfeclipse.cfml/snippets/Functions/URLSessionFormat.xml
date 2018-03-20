@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>URLSessionFormat</name>
+<help><![CDATA[URLSessionFormat(request_URL)]]></help>
+<starttext><![CDATA[URLSessionFormat($${request_URL})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>REQUEST_BODY</name>
+	<help>The entity body (if any) sent with an HTTP request or response is in a format and encoding defined by the Entity-Header fields. See the HTTP protocol specification for details</help>
+	<starttext><![CDATA[REQUEST_BODY]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Url</name>
+	<help>Returns the value of the URLPATH attribute defined in the CFINDEX tag used to populate the collection. This value is always empty when you populate the collection with CFINDEX when TYPE=CUSTOM</help>
+	<starttext><![CDATA[Url]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

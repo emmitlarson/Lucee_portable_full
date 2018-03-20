@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Header</name>
+	<help>Entire message header returned when ACTION=GETALL</help>
+	<starttext><![CDATA[Header]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

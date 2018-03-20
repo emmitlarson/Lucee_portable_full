@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsStruct</name>
+<help><![CDATA[IsStruct(variable)]]></help>
+<starttext><![CDATA[IsStruct($${variable})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>MessageNumber</name>
+	<help>Sequential message number of message on POP server</help>
+	<starttext><![CDATA[MessageNumber]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

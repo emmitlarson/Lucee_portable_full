@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>StructFindKey</name>
+<help><![CDATA[StructFindKey(Top, Key [, Scope])]]></help>
+<starttext><![CDATA[StructFindKey($${Top},$${Key},$${Scope})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

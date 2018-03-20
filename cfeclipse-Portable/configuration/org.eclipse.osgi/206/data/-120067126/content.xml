@@ -1,0 +1,1007 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='update site: http://eclipse.jcraft.com/site.xml' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1520800275391'/>
+    <property name='site.checksum' value='499309770'/>
+  </properties>
+  <references size='6'>
+    <repository uri='http://eclipse.jcraft.com/site.xml' url='http://eclipse.jcraft.com/site.xml' type='0' options='0'/>
+    <repository uri='http://eclipse.jcraft.com/' url='http://eclipse.jcraft.com/' type='1' options='0'/>
+    <repository uri='http://eclipse.jcraft.com/' url='http://eclipse.jcraft.com/' type='0' options='0'/>
+    <repository uri='http://update.eclipse.org/updates/3.2' url='http://update.eclipse.org/updates/3.2' type='0' options='0'/>
+    <repository uri='http://update.eclipse.org/updates/3.2' url='http://update.eclipse.org/updates/3.2' type='1' options='0'/>
+    <repository uri='http://eclipse.jcraft.com/site.xml' url='http://eclipse.jcraft.com/site.xml' type='1' options='0'/>
+  </references>
+  <units size='37'>
+    <unit id='org.eclipse.target.iofile' version='1.0.0' singleton='false'>
+      <update id='org.eclipse.target.iofile' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target.iofile' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.target.iofile' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.target.iofile' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.target.iofile&#xA;Bundle-Version: 1.0.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jcraft.eclipse.sftp.feature.feature.group' version='0.0.4' singleton='false'>
+      <update id='com.jcraft.eclipse.sftp.feature.feature.group' range='[0.0.0,0.0.4)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='SFTP Plug-in'/>
+        <property name='org.eclipse.equinox.p2.description' value='SFTP Plug-in for Eclipse'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.jcraft.com/eclipse-sftp/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JCraft, Inc.'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.sftp.feature.feature.group' version='0.0.4'/>
+      </provides>
+      <requires size='18'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='[3.1.0,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='[3.2.0,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.core' range='[3.2.0,4.0.0)'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.swt' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime.compatibility' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.osgi' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.target' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.sftp' range='[0.0.4,0.0.4]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.target.sftp' range='[0.0.4,0.0.4]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.team.sftp' range='[0.0.4,0.0.4]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.sftp.feature.feature.jar' range='[0.0.4,0.0.4]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
+          Eclipse Public License - v 1.0
+        </license>
+      </licenses>
+      <copyright>
+        JCraft, Inc.
+      </copyright>
+    </unit>
+    <unit id='http://eclipse.jcraft.com/site.xml.SFTP Plug-in' version='1.0.0.0-77cKaY36'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='SFTP Plug-in'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://eclipse.jcraft.com/site.xml.SFTP Plug-in' version='1.0.0.0-77cKaY36'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.sftp.feature.feature.group' range='[0.0.4,0.0.4]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='com.jcraft.eclipse.sftp.feature.feature.jar' version='0.0.4'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='SFTP Plug-in'/>
+        <property name='org.eclipse.equinox.p2.description' value='SFTP Plug-in for Eclipse'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.jcraft.com/eclipse-sftp/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JCraft, Inc.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.sftp.feature.feature.jar' version='0.0.4'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.jcraft.eclipse.sftp.feature' version='0.0.4'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.jcraft.eclipse.sftp.feature' version='0.0.4'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
+          Eclipse Public License - v 1.0
+        </license>
+      </licenses>
+      <copyright>
+        JCraft, Inc.
+      </copyright>
+    </unit>
+    <unit id='com.jcraft.eclipse.team.sftp' version='0.0.4' singleton='false'>
+      <update id='com.jcraft.eclipse.team.sftp' range='[0.0.0,0.0.4)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.team.sftp' version='0.0.4'/>
+        <provided namespace='osgi.bundle' name='com.jcraft.eclipse.team.sftp' version='0.0.4'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.team.sftp' version='0.0.4'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jcraft.eclipse.team.sftp&#xA;Bundle-Version: 0.0.4&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.team.extras.source' version='3.1.100.v20060314' singleton='false'>
+      <update id='org.eclipse.team.extras.source' range='[0.0.0,3.1.100.v20060314)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.extras.source' version='3.1.100.v20060314'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.team.extras.source' version='3.1.100.v20060314'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.team.extras.source' version='3.1.100.v20060314'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.team.extras.source&#xA;Bundle-Version: 3.1.100.v20060314&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jcraft.eclipse.jsch.ui' version='0.0.1' singleton='false'>
+      <update id='com.jcraft.eclipse.jsch.ui' range='[0.0.0,0.0.1)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.ui' version='0.0.1'/>
+        <provided namespace='osgi.bundle' name='com.jcraft.eclipse.jsch.ui' version='0.0.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.jsch.ui' version='0.0.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jcraft.eclipse.jsch.ui&#xA;Bundle-Version: 0.0.1&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='http://eclipse.jcraft.com/site.xml.JSch Agent Proxy Plug-in' version='1.0.0.4--cKWEUW7E7AQ7M7UCOGK'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='JSch Agent Proxy Plug-in'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://eclipse.jcraft.com/site.xml.JSch Agent Proxy Plug-in' version='1.0.0.4--cKWEUW7E7AQ7M7UCOGK'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.pageant.feature.group' range='[1.0.0.201504042251,1.0.0.201504042251]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.sshagent.feature.group' range='[1.0.0.201504081706,1.0.0.201504081706]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='com.jcraft.eclipse.jsch.core' version='0.0.1' singleton='false'>
+      <update id='com.jcraft.eclipse.jsch.core' range='[0.0.0,0.0.1)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.core' version='0.0.1'/>
+        <provided namespace='osgi.bundle' name='com.jcraft.eclipse.jsch.core' version='0.0.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.jsch.core' version='0.0.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jcraft.eclipse.jsch.core&#xA;Bundle-Version: 0.0.1&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jcraft.eclipse.jsch.feature.jar' version='0.0.1'>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='JSch Eclipse'/>
+        <property name='org.eclipse.equinox.p2.description' value='JSch Eclipse Plug-in.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JCraft, Inc.'/>
+        <property name='df_LT.featureName' value='JSch Eclipse'/>
+        <property name='df_LT.providerName' value='JCraft, Inc.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.feature.jar' version='0.0.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.jcraft.eclipse.jsch' version='0.0.1'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.jcraft.eclipse.jsch' version='0.0.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
+          Eclipse Public License Version 1.0
+        </license>
+      </licenses>
+      <copyright>
+        (c) Copyright JCraft, Inc. and others 2007.  All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.team.extras.feature.jar' version='3.1.100.v20060314------0842282536'>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;March 17, 2005&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;- Content may be structured and packaged into modules to facilitate delivering,&#xA;extending, and upgrading the Content. Typical modules may include plug-ins (&quot;Plug-ins&quot;),&#xA;plug-in fragments (&quot;Fragments&quot;), and features (&quot;Features&quot;).&#xA;- Each Plug-in or Fragment may be packaged as a sub-directory or JAR (Java? ARchive)&#xA;in a directory named &quot;plugins&quot;.&#xA;- A Feature is a bundle of one or more Plug-ins and/or Fragments and associated material.&#xA;Each Feature may be packaged as a sub-directory in a directory named &quot;features&quot;.&#xA;Within a Feature, files named &quot;feature.xml&quot; may contain a list of the names and version&#xA;numbers of the Plug-ins and/or Fragments associated with that Feature.&#xA;- Features may also include other Features (&quot;Included Features&quot;). Within a Feature, files&#xA;named &quot;feature.xml&quot; may contain a list of the names and version numbers of Included Features.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Inside Plug-ins and Fragments packaged as JARs&#xA;- Sub-directories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE EPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;&#xA;Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both.&#xA;'/>
+        <property name='df_LT.copyright' value='Copyright (c) 2000, 2006 IBM Corporation and others.&#xA;All rights reserved. This program and the accompanying materials&#xA;are made available under the terms of the Eclipse Public License v1.0&#xA;which accompanies this distribution, and is available at&#xA;http://www.eclipse.org/legal/epl-v10.html&#xA;&#xA;Contributors:&#xA;IBM Corporation - initial API and implementation&#xA;'/>
+        <property name='df_LT.featureName' value='Eclipse FTP and WebDAV Support'/>
+        <property name='df_LT.description' value='Eclipse FTP and WebDAV target management providers. Binary runtime; user documentation; and source code zips.'/>
+        <property name='df_LT.providerName' value='Eclipse.org'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.extras.feature.jar' version='3.1.100.v20060314------0842282536'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipse.team.extras' version='3.1.100.v20060314------0842282536'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.extras' version='3.1.100.v20060314------0842282536'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.target.webdav' version='1.0.0' singleton='false'>
+      <update id='org.eclipse.target.webdav' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target.webdav' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.target.webdav' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.target.webdav' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.target.webdav&#xA;Bundle-Version: 1.0.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jcraft.jsch.agentproxy.eclipse.sshagent' version='1.0.0.201504081706' singleton='false'>
+      <update id='com.jcraft.jsch.agentproxy.eclipse.sshagent' range='[0.0.0,1.0.0.201504081706)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.sshagent' version='1.0.0.201504081706'/>
+        <provided namespace='osgi.bundle' name='com.jcraft.jsch.agentproxy.eclipse.sshagent' version='1.0.0.201504081706'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jcraft.jsch.agentproxy.eclipse.sshagent' version='1.0.0.201504081706'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jcraft.jsch.agentproxy.eclipse.sshagent&#xA;Bundle-Version: 1.0.0.201504081706&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jcraft.eclipse.jsch.feature.group' version='0.0.1' singleton='false'>
+      <update id='com.jcraft.eclipse.jsch.feature.group' range='[0.0.0,0.0.1)' severity='0'/>
+      <properties size='6'>
+        <property name='org.eclipse.equinox.p2.name' value='JSch Eclipse'/>
+        <property name='org.eclipse.equinox.p2.description' value='JSch Eclipse Plug-in.'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JCraft, Inc.'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.featureName' value='JSch Eclipse'/>
+        <property name='df_LT.providerName' value='JCraft, Inc.'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.feature.group' version='0.0.1'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jsch.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.core' range='[0.0.1,0.0.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.ui' range='[0.0.1,0.0.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.feature.jar' range='[0.0.1,0.0.1]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
+          Eclipse Public License Version 1.0
+        </license>
+      </licenses>
+      <copyright>
+        (c) Copyright JCraft, Inc. and others 2007.  All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='http://eclipse.jcraft.com/site.xml.JCTerm Plug-in' version='1.0.0.0-3cKakLh'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='JCTerm Plug-in'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://eclipse.jcraft.com/site.xml.JCTerm Plug-in' version='1.0.0.0-3cKakLh'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jcterm.feature.group' range='[0.0.2,0.0.2]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.eclipse.team.webdav' version='3.1.0' singleton='false'>
+      <update id='org.eclipse.team.webdav' range='[0.0.0,3.1.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.webdav' version='3.1.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.team.webdav' version='3.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.team.webdav' version='3.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.team.webdav&#xA;Bundle-Version: 3.1.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jcraft.eclipse.sftp' version='0.0.4' singleton='false'>
+      <update id='com.jcraft.eclipse.sftp' range='[0.0.0,0.0.4)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.sftp' version='0.0.4'/>
+        <provided namespace='osgi.bundle' name='com.jcraft.eclipse.sftp' version='0.0.4'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.sftp' version='0.0.4'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jcraft.eclipse.sftp&#xA;Bundle-Version: 0.0.4&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.team.extras.feature.group' version='3.1.100.v20060314------0842282536' singleton='false'>
+      <update id='org.eclipse.team.extras.feature.group' range='[0.0.0,3.1.100.v20060314------0842282536)' severity='0'/>
+      <properties size='9'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;March 17, 2005&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;- Content may be structured and packaged into modules to facilitate delivering,&#xA;extending, and upgrading the Content. Typical modules may include plug-ins (&quot;Plug-ins&quot;),&#xA;plug-in fragments (&quot;Fragments&quot;), and features (&quot;Features&quot;).&#xA;- Each Plug-in or Fragment may be packaged as a sub-directory or JAR (Java? ARchive)&#xA;in a directory named &quot;plugins&quot;.&#xA;- A Feature is a bundle of one or more Plug-ins and/or Fragments and associated material.&#xA;Each Feature may be packaged as a sub-directory in a directory named &quot;features&quot;.&#xA;Within a Feature, files named &quot;feature.xml&quot; may contain a list of the names and version&#xA;numbers of the Plug-ins and/or Fragments associated with that Feature.&#xA;- Features may also include other Features (&quot;Included Features&quot;). Within a Feature, files&#xA;named &quot;feature.xml&quot; may contain a list of the names and version numbers of Included Features.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Inside Plug-ins and Fragments packaged as JARs&#xA;- Sub-directories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE EPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;&#xA;Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both.&#xA;'/>
+        <property name='df_LT.copyright' value='Copyright (c) 2000, 2006 IBM Corporation and others.&#xA;All rights reserved. This program and the accompanying materials&#xA;are made available under the terms of the Eclipse Public License v1.0&#xA;which accompanies this distribution, and is available at&#xA;http://www.eclipse.org/legal/epl-v10.html&#xA;&#xA;Contributors:&#xA;IBM Corporation - initial API and implementation&#xA;'/>
+        <property name='df_LT.featureName' value='Eclipse FTP and WebDAV Support'/>
+        <property name='df_LT.description' value='Eclipse FTP and WebDAV target management providers. Binary runtime; user documentation; and source code zips.'/>
+        <property name='df_LT.providerName' value='Eclipse.org'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.extras.feature.group' version='3.1.100.v20060314------0842282536'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='13'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.extras' range='[3.1.0,3.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ftp' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target.ide' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target.ftp' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target.iofile' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target.webdav' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.target' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.ftp' range='[3.1.0,3.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.webdav' range='[3.1.0,3.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.webdav' range='[3.0.0,3.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.extras.source' range='[3.1.100.v20060314,3.1.100.v20060314]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.extras.feature.jar' range='[3.1.100.v20060314------0842282536,3.1.100.v20060314------0842282536]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='http://eclipse.jcraft.com/site.xml.JSch Eclipse Plug-in' version='1.0.0.0-1cKaWXh'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='JSch Eclipse Plug-in'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://eclipse.jcraft.com/site.xml.JSch Eclipse Plug-in' version='1.0.0.0-1cKaWXh'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.feature.group' range='[0.0.1,0.0.1]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='com.jcraft.eclipse.jcterm.feature.group' version='0.0.2' singleton='false'>
+      <update id='com.jcraft.eclipse.jcterm.feature.group' range='[0.0.0,0.0.2)' severity='0'/>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='JCTerm'/>
+        <property name='org.eclipse.equinox.p2.description' value='JCTerm Plug-in for Eclipse'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.jcraft.com/eclipse-jcterm/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JCraft, Inc.'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.featureName' value='JCTerm'/>
+        <property name='df_LT.providerName' value='JCraft, Inc.'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jcterm.feature.group' version='0.0.2'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='9'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch' range='0.1.37'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jsch.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.core' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jsch.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jcterm' range='[0.0.2,0.0.2]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jcterm.feature.jar' range='[0.0.2,0.0.2]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
+          Eclipse Public License Version 1.0
+        </license>
+      </licenses>
+      <copyright uri='http://www.jcraft.com/' url='http://www.jcraft.com/'>
+        (c) Copyright JCraft, Inc. 2007.  All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='com.jcraft.jsch.agentproxy.eclipse.pageant' version='1.0.0.201504042251' singleton='false'>
+      <update id='com.jcraft.jsch.agentproxy.eclipse.pageant' range='[0.0.0,1.0.0.201504042251)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.pageant' version='1.0.0.201504042251'/>
+        <provided namespace='osgi.bundle' name='com.jcraft.jsch.agentproxy.eclipse.pageant' version='1.0.0.201504042251'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jcraft.jsch.agentproxy.eclipse.pageant' version='1.0.0.201504042251'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jcraft.jsch.agentproxy.eclipse.pageant&#xA;Bundle-Version: 1.0.0.201504042251&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jcraft.jsch.agentproxy.eclipse.sshagent.feature.group' version='1.0.0.201504081706' singleton='false'>
+      <update id='com.jcraft.jsch.agentproxy.eclipse.sshagent.feature.group' range='[0.0.0,1.0.0.201504081706)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='JSch Agent Proxy Plug-in for ssh-agent using JNA'/>
+        <property name='org.eclipse.equinox.p2.description' value='http://www.jcraft.com/jsch-agent-proxy/'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.jcraft.com/jsch-agent-proxy/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JCraft, Inc.'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.sshagent.feature.group' version='1.0.0.201504081706'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.sshagent' range='[1.0.0.201504081706,1.0.0.201504081706]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.sshagent.feature.jar' range='[1.0.0.201504081706,1.0.0.201504081706]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt' url='http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt'>
+          Copyright (c) 2011,2015 Atsuhiko Yamanaka, JCraft,Inc.&#xA;All rights reserved.&#xA;&#xA;Redistribution and use in source and binary forms, with or without&#xA;modification, are permitted provided that the following conditions are met:&#xA;&#xA;  1. Redistributions of source code must retain the above copyright notice,&#xA;     this list of conditions and the following disclaimer.&#xA;&#xA;  2. Redistributions in binary form must reproduce the above copyright&#xA;     notice, this list of conditions and the following disclaimer in&#xA;     the documentation and/or other materials provided with the distribution.&#xA;&#xA;  3. The names of the authors may not be used to endorse or promote products&#xA;     derived from this software without specific prior written permission.&#xA;&#xA;THIS SOFTWARE IS PROVIDED ``AS IS&apos;&apos; AND ANY EXPRESSED OR IMPLIED WARRANTIES,&#xA;INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND&#xA;FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL JCRAFT,&#xA;INC. OR ANY CONTRIBUTORS TO THIS SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT,&#xA;INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT&#xA;LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,&#xA;OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF&#xA;LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING&#xA;NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,&#xA;EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        2011,2015 JCraft, Inc.
+      </copyright>
+    </unit>
+    <unit id='com.jcraft.jsch.agentproxy.eclipse.pageant.feature.group' version='1.0.0.201504042251' singleton='false'>
+      <update id='com.jcraft.jsch.agentproxy.eclipse.pageant.feature.group' range='[0.0.0,1.0.0.201504042251)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='JSch Agent Proxy Plug-in for Pageant using JNA'/>
+        <property name='org.eclipse.equinox.p2.description' value='http://www.jcraft.com/jsch-agent-proxy/'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.jcraft.com/jsch-agent-proxy/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JCraft, Inc.'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.pageant.feature.group' version='1.0.0.201504042251'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.pageant' range='[1.0.0.201504042251,1.0.0.201504042251]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.pageant.feature.jar' range='[1.0.0.201504042251,1.0.0.201504042251]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt' url='http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt'>
+          Copyright (c) 2011,2015 Atsuhiko Yamanaka, JCraft,Inc.&#xA;All rights reserved.&#xA;&#xA;Redistribution and use in source and binary forms, with or without&#xA;modification, are permitted provided that the following conditions are met:&#xA;&#xA;  1. Redistributions of source code must retain the above copyright notice,&#xA;     this list of conditions and the following disclaimer.&#xA;&#xA;  2. Redistributions in binary form must reproduce the above copyright&#xA;     notice, this list of conditions and the following disclaimer in&#xA;     the documentation and/or other materials provided with the distribution.&#xA;&#xA;  3. The names of the authors may not be used to endorse or promote products&#xA;     derived from this software without specific prior written permission.&#xA;&#xA;THIS SOFTWARE IS PROVIDED ``AS IS&apos;&apos; AND ANY EXPRESSED OR IMPLIED WARRANTIES,&#xA;INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND&#xA;FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL JCRAFT,&#xA;INC. OR ANY CONTRIBUTORS TO THIS SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT,&#xA;INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT&#xA;LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,&#xA;OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF&#xA;LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING&#xA;NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,&#xA;EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        2011,2015 JCraft, Inc.
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.ftp' version='1.0.0' singleton='false'>
+      <update id='org.eclipse.ftp' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ftp' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.ftp' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.ftp' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.ftp&#xA;Bundle-Version: 1.0.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.team.ftp' version='3.1.0' singleton='false'>
+      <update id='org.eclipse.team.ftp' range='[0.0.0,3.1.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.ftp' version='3.1.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.team.ftp' version='3.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.team.ftp' version='3.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.team.ftp&#xA;Bundle-Version: 3.1.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='http://eclipse.jcraft.com/site.xml.Eclipse FTP and WebDAV Support' version='1.0.0.61_7cLUXTh8s733E395A1111113IA77I7C9E'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Eclipse FTP and WebDAV Support'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://eclipse.jcraft.com/site.xml.Eclipse FTP and WebDAV Support' version='1.0.0.61_7cLUXTh8s733E395A1111113IA77I7C9E'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.extras.feature.group' range='[3.1.100.v20060314------0842282536,3.1.100.v20060314------0842282536]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.eclipse.target' version='1.0.0' singleton='false'>
+      <update id='org.eclipse.target' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.target' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.target' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.target&#xA;Bundle-Version: 1.0.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jcraft.eclipse.target.sftp' version='0.0.4' singleton='false'>
+      <update id='com.jcraft.eclipse.target.sftp' range='[0.0.0,0.0.4)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.target.sftp' version='0.0.4'/>
+        <provided namespace='osgi.bundle' name='com.jcraft.eclipse.target.sftp' version='0.0.4'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.target.sftp' version='0.0.4'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jcraft.eclipse.target.sftp&#xA;Bundle-Version: 0.0.4&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.team.extras' version='3.1.0' singleton='false'>
+      <update id='org.eclipse.team.extras' range='[0.0.0,3.1.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.extras' version='3.1.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.team.extras' version='3.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.team.extras' version='3.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.team.extras&#xA;Bundle-Version: 3.1.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.team.target' version='1.0.0' singleton='false'>
+      <update id='org.eclipse.team.target' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.team.target' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.team.target' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.team.target' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.team.target&#xA;Bundle-Version: 1.0.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.target.ide' version='1.0.0' singleton='false'>
+      <update id='org.eclipse.target.ide' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target.ide' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.target.ide' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.target.ide' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.target.ide&#xA;Bundle-Version: 1.0.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jcraft.jsch.agentproxy.eclipse.sshagent.feature.jar' version='1.0.0.201504081706'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='JSch Agent Proxy Plug-in for ssh-agent using JNA'/>
+        <property name='org.eclipse.equinox.p2.description' value='http://www.jcraft.com/jsch-agent-proxy/'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.jcraft.com/jsch-agent-proxy/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JCraft, Inc.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.sshagent.feature.jar' version='1.0.0.201504081706'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.jcraft.jsch.agentproxy.eclipse.sshagent' version='1.0.0.201504081706'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.jcraft.jsch.agentproxy.eclipse.sshagent' version='1.0.0.201504081706'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt' url='http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt'>
+          Copyright (c) 2011,2015 Atsuhiko Yamanaka, JCraft,Inc.&#xA;All rights reserved.&#xA;&#xA;Redistribution and use in source and binary forms, with or without&#xA;modification, are permitted provided that the following conditions are met:&#xA;&#xA;  1. Redistributions of source code must retain the above copyright notice,&#xA;     this list of conditions and the following disclaimer.&#xA;&#xA;  2. Redistributions in binary form must reproduce the above copyright&#xA;     notice, this list of conditions and the following disclaimer in&#xA;     the documentation and/or other materials provided with the distribution.&#xA;&#xA;  3. The names of the authors may not be used to endorse or promote products&#xA;     derived from this software without specific prior written permission.&#xA;&#xA;THIS SOFTWARE IS PROVIDED ``AS IS&apos;&apos; AND ANY EXPRESSED OR IMPLIED WARRANTIES,&#xA;INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND&#xA;FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL JCRAFT,&#xA;INC. OR ANY CONTRIBUTORS TO THIS SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT,&#xA;INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT&#xA;LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,&#xA;OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF&#xA;LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING&#xA;NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,&#xA;EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        2011,2015 JCraft, Inc.
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.webdav' version='3.0.0' singleton='false'>
+      <update id='org.eclipse.webdav' range='[0.0.0,3.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.webdav' version='3.0.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.webdav' version='3.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.webdav' version='3.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.webdav&#xA;Bundle-Version: 3.0.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.target.ftp' version='1.0.0' singleton='false'>
+      <update id='org.eclipse.target.ftp' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.target.ftp' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.target.ftp' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.target.ftp' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.target.ftp&#xA;Bundle-Version: 1.0.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jcraft.eclipse.jcterm.feature.jar' version='0.0.2'>
+      <properties size='6'>
+        <property name='org.eclipse.equinox.p2.name' value='JCTerm'/>
+        <property name='org.eclipse.equinox.p2.description' value='JCTerm Plug-in for Eclipse'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.jcraft.com/eclipse-jcterm/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JCraft, Inc.'/>
+        <property name='df_LT.featureName' value='JCTerm'/>
+        <property name='df_LT.providerName' value='JCraft, Inc.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jcterm.feature.jar' version='0.0.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.jcraft.eclipse.jcterm' version='0.0.2'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.jcraft.eclipse.jcterm' version='0.0.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
+          Eclipse Public License Version 1.0
+        </license>
+      </licenses>
+      <copyright uri='http://www.jcraft.com/' url='http://www.jcraft.com/'>
+        (c) Copyright JCraft, Inc. 2007.  All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='com.jcraft.jsch.agentproxy.eclipse.pageant.feature.jar' version='1.0.0.201504042251'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='JSch Agent Proxy Plug-in for Pageant using JNA'/>
+        <property name='org.eclipse.equinox.p2.description' value='http://www.jcraft.com/jsch-agent-proxy/'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.jcraft.com/jsch-agent-proxy/'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JCraft, Inc.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.jsch.agentproxy.eclipse.pageant.feature.jar' version='1.0.0.201504042251'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.jcraft.jsch.agentproxy.eclipse.pageant' version='1.0.0.201504042251'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.jcraft.jsch.agentproxy.eclipse.pageant' version='1.0.0.201504042251'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt' url='http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt'>
+          Copyright (c) 2011,2015 Atsuhiko Yamanaka, JCraft,Inc.&#xA;All rights reserved.&#xA;&#xA;Redistribution and use in source and binary forms, with or without&#xA;modification, are permitted provided that the following conditions are met:&#xA;&#xA;  1. Redistributions of source code must retain the above copyright notice,&#xA;     this list of conditions and the following disclaimer.&#xA;&#xA;  2. Redistributions in binary form must reproduce the above copyright&#xA;     notice, this list of conditions and the following disclaimer in&#xA;     the documentation and/or other materials provided with the distribution.&#xA;&#xA;  3. The names of the authors may not be used to endorse or promote products&#xA;     derived from this software without specific prior written permission.&#xA;&#xA;THIS SOFTWARE IS PROVIDED ``AS IS&apos;&apos; AND ANY EXPRESSED OR IMPLIED WARRANTIES,&#xA;INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND&#xA;FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL JCRAFT,&#xA;INC. OR ANY CONTRIBUTORS TO THIS SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT,&#xA;INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT&#xA;LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,&#xA;OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF&#xA;LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING&#xA;NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,&#xA;EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        2011,2015 JCraft, Inc.
+      </copyright>
+    </unit>
+    <unit id='com.jcraft.eclipse.jcterm' version='0.0.2' singleton='false'>
+      <update id='com.jcraft.eclipse.jcterm' range='[0.0.0,0.0.2)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jcraft.eclipse.jcterm' version='0.0.2'/>
+        <provided namespace='osgi.bundle' name='com.jcraft.eclipse.jcterm' version='0.0.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jcraft.eclipse.jcterm' version='0.0.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jcraft.eclipse.jcterm&#xA;Bundle-Version: 0.0.2&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

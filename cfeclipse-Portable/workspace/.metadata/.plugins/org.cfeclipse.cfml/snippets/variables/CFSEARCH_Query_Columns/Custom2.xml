@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Custom2</name>
+	<help>Returns the value of the second custom field</help>
+	<starttext><![CDATA[Custom2]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

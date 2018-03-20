@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Right</name>
+<help><![CDATA[Right(string, count)]]></help>
+<starttext><![CDATA[Right($${string},$${count})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

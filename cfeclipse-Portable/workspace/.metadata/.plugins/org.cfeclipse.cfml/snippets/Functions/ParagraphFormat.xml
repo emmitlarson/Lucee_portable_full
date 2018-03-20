@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ParagraphFormat</name>
+<help><![CDATA[ParagraphFormat(string)]]></help>
+<starttext><![CDATA[ParagraphFormat($${string})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

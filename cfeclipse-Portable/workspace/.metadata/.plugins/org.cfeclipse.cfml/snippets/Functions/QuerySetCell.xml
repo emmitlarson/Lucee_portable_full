@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>QuerySetCell</name>
+<help><![CDATA[QuerySetCell(query, column_name, value [, row_number])]]></help>
+<starttext><![CDATA[QuerySetCell($${query},$${column_name},$${value},$${row_number})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

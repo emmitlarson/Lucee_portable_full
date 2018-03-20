@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>DayOfWeek</name>
+<help><![CDATA[DayOfWeek(date)]]></help>
+<starttext><![CDATA[DayOfWeek($${date})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>HTTP_ACCEPT</name>
+	<help>List of Content-types the browser can accept (defined by the HTTP Accept header)</help>
+	<starttext><![CDATA[HTTP_ACCEPT]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>GetTempDirectory</name>
+<help><![CDATA[GetTempDirectory()]]></help>
+<starttext><![CDATA[GetTempDirectory()]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

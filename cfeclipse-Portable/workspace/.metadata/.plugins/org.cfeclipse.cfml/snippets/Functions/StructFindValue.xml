@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>StructFindValue</name>
+<help><![CDATA[StructFindValue(Top, Key [, Scope])]]></help>
+<starttext><![CDATA[StructFindValue($${Top},$${Key},$${Scope})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

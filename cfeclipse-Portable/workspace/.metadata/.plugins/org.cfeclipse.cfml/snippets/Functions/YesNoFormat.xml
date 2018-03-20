@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>YesNoFormat</name>
+<help><![CDATA[YesNoFormat(value)]]></help>
+<starttext><![CDATA[YesNoFormat($${value})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

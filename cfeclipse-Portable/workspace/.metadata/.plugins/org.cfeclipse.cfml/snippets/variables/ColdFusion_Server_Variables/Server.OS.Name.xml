@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>Server.OS.Name</name>
+	<help>Server operating system name</help>
+	<starttext><![CDATA[Server.OS.Name]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

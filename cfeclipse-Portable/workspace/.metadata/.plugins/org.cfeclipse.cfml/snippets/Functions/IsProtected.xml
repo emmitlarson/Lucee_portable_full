@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsProtected</name>
+<help><![CDATA[IsProtected(resourcetype,resourcename [,action ])]]></help>
+<starttext><![CDATA[IsProtected($${resourcetype},$${resourcename},$${action})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

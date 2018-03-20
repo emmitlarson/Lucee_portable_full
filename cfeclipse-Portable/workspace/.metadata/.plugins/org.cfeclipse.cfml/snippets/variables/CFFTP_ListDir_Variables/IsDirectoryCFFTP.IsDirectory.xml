@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>IsDirectoryCFFTP.IsDirectory</name>
+	<help></help>
+	<starttext><![CDATA[Boolean value indicating whether object is a file or directory]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

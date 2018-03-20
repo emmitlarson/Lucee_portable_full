@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>DateLastAccessed</name>
+	<help>Date and time the uploaded file was last accessed</help>
+	<starttext><![CDATA[File.DateLastAccessed]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

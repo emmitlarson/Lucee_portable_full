@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>ToBase64</name>
+<help><![CDATA[ToBase64(string)]]></help>
+<starttext><![CDATA[ToBase64($${string})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

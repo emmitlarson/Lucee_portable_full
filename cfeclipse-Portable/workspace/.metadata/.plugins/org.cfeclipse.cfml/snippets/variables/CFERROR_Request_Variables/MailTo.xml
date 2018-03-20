@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>MailTo</name>
+	<help>Email address of administrator who should be notified (corresponds to the value set in the MAILTO attribute of CFERROR)</help>
+	<starttext><![CDATA[Error.MailTo]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

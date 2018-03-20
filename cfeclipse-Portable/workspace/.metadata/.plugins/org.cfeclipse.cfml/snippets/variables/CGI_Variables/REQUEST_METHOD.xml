@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>REQUEST_METHOD</name>
+	<help>The method with which the request was made. For HTTP, this "GET", "HEAD", "POST", etc</help>
+	<starttext><![CDATA[REQUEST_METHOD]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

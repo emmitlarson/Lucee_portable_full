@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>QueryNew</name>
+<help><![CDATA[QueryNew(columnlist[, columntypelist])]]></help>
+<starttext><![CDATA[QueryNew($${columnlist},$${columntypelist})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

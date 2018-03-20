@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>comment</name>
+<help></help>
+<starttext><![CDATA[<!---
+	Name			: $${CURRENTFILE}
+	Author			: Michael Sharman
+	Created			: $${MONTH} $${DAYOFMONTH}, $${YEAR}
+	Last Updated	: $${MONTH} $${DAYOFMONTH}, $${YEAR}
+	History			: Initial release (mps $${DAYOFMONTH}/$${MONTHNUMBER}/$${YEAR})
+	Purpose			: $${Purpose:}
+ --->]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

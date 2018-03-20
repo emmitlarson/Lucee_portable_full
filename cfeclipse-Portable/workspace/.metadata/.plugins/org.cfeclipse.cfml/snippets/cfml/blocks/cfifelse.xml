@@ -1,0 +1,15 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;snippet name="cfifelse" description="simple if else statement" preview="code" type="wrap">
+&lt;insertText location="beforeSelection">
+&lt;![CDATA[<cfif 
+ ]]>
+&lt;/insertText>
+&lt;insertText location="afterSelection">&lt;![CDATA[>
+
+<cfelse>
+
+</cfif>]]>
+&lt;/insertText>
+&lt;/snippet>
+

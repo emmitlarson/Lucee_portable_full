@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ArrayDeleteAt" description="ArrayDeleteAt(array, position)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ArrayDeleteAt($${array},$${position})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="BitMaskClear" description="BitMaskClear(number, start, length)" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[BitMaskClear($${number},$${start},$${length})
+ ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+

@@ -1,0 +1,15 @@
+
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;snippet name="switch" description="script version of a switch block" preview="code" type="wrap">
+&lt;insertText location="beforeSelection">
+&lt;![CDATA[switch($${expression}){
+	case $${case1}:
+		
+ ]]>
+&lt;/insertText>
+&lt;insertText location="afterSelection">&lt;![CDATA[	
+	break;
+}]]>
+&lt;/insertText>
+&lt;/snippet>
+

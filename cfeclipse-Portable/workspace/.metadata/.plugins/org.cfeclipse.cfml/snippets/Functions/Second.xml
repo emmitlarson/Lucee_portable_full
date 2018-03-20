@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>Second</name>
+<help><![CDATA[Second(date)]]></help>
+<starttext><![CDATA[Second($${date})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

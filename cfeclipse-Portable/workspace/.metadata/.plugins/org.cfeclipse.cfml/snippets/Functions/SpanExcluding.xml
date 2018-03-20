@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>SpanExcluding</name>
+<help><![CDATA[SpanExcluding(string, set)]]></help>
+<starttext><![CDATA[SpanExcluding($${string},$${set})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

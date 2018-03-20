@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsValid</name>
+<help><![CDATA[IsValid(type, value [, pattern or min, max])]]></help>
+<starttext><![CDATA[IsValid($${type},$${value},$${pattern or min},$${max})]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>

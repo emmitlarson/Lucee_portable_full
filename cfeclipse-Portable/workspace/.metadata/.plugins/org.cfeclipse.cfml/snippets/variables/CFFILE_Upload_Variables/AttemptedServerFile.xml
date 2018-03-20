@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<snippet filetemplate="false" extension="cfm">
+	<name>AttemptedServerFile</name>
+	<help>Specifies whether or not ColdFusion attempted to save a file. Indicates Yes or No</help>
+	<starttext><![CDATA[File.AttemptedServerFile]]></starttext>
+	<endtext><![CDATA[]]></endtext>
+	</snippet>

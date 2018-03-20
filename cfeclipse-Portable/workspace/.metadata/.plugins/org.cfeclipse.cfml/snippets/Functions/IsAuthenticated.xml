@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet filetemplate="false" extension="cfm">
+<name>IsAuthenticated</name>
+<help><![CDATA[IsAuthenticated()]]></help>
+<starttext><![CDATA[IsAuthenticated()]]></starttext>
+<endtext><![CDATA[]]></endtext>
+</snippet>
