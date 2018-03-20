@@ -42,7 +42,12 @@ if not defined javaDir (
     echo Java directory not found
     pause
 ) else (
-    SET JAVA_HOME=%javaDir%
+ rem        SET JAVA_HOME=%javaDir%
+ rem    SET JAVA_HOME=%~dp0\JRE\
+ rem      SET JAVA_HOME=..\JRE\
+ 
+  SET JAVA_HOME=%~dp0\jre\
+ 
 )
 
 rem Guess CATALINA_HOME if not defined
